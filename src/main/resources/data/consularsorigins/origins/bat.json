@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"consularsorigins:desaturate",
+		"consularsorigins:flying",
+		"consularsorigins:tiny"
+	],
+	"icon": "pointed_dripstone",
+	"order": 4,
+	"impact": 3
+}

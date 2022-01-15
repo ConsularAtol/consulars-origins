@@ -116,5 +116,16 @@
   "power.consularsorigins.sculk_shader.name": "Vibrations",
   "power.consularsorigins.sculk_shader.description": "You can see any entity that is moving without sneaking. And you can make out small details in textures.",
   "power.consularsorigins.big.name": "Big",
-  "power.consularsorigins.big.description": "You are slightly bigger than usual, with slightly more health and less movement speed."
+  "power.consularsorigins.big.description": "You are slightly bigger than usual, with slightly more health and less movement speed.",
+  
+  "origin.consularsorigins.bat.name": "Bat",
+  "origin.consularsorigins.bat.description": "Bats are small creatures blessed with the ability of flight, though they can't see colors very well.",
+  "power.consularsorigins.desaturate.name": "Desaturation",
+  "power.consularsorigins.desaturate.description": "The world is much more desaturated, making colors less vibrant and more dull.",
+  "power.consularsorigins.flying.name": "Flight",
+  "power.consularsorigins.flying.description": "You can fly as if you're in creative mode, so long as you aren't exposed to the sun.",
+  "power.consularsorigins.tiny.name": "Tiny",
+  "power.consularsorigins.tiny.description": "You are half a block tall, at the cost of most of your health.",
+  "power.consularsorigins.sensitive_eyes.name": "Sensitive Eyes",
+  "power.consularsorigins.sensitive_eyes.description": "Your eyes are very sensitive. You can't see very well in direct sunlight."
 }

@@ -1,0 +1,7 @@
+{
+    "type": "origins:shader",
+    "shader": "minecraft:shaders/post/blobs2.json",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    }
+}

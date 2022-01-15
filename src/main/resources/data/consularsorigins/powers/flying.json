@@ -1,0 +1,7 @@
+{
+    "type": "origins:creative_flight",
+    "condition": {
+            "type": "origins:exposed_to_sun",
+            "inverted": true
+        }
+}
