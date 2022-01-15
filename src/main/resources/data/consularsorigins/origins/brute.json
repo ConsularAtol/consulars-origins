@@ -1,0 +1,14 @@
+{
+  "powers": [
+	"consularsorigins:brute_force",
+	"consularsorigins:chunky",
+  "consularsorigins:barbaricrage",
+  "origins:light_armor",
+  "consularsorigins:half_piglin",
+  "origins:carnivore",
+  "origins:nether_spawn"
+  ],
+  "icon": "iron_axe",
+  "order": 1,
+  "impact": 3
+}

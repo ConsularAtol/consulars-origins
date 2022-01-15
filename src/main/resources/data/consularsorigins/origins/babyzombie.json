@@ -1,0 +1,11 @@
+{
+  "powers": [
+  "consularsorigins:hungerpunch",
+  "consularsorigins:beigeskin",
+  "consularsorigins:alreadydead",
+  "consularsorigins:considered_undead"
+  ],
+  "icon": "rotten_flesh",
+  "order": 1,
+  "impact": 2
+}

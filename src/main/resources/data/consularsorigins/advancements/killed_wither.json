@@ -1,0 +1,16 @@
+{
+  "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+  "criteria": {
+    "killedwither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "consularsorigins:remove_wither_advancement"
+  }
+}

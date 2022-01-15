@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "origins": [
+	"consularsorigins:axolotl",
+  "consularsorigins:babyzombie",
+  "consularsorigins:brute",
+  "consularsorigins:dwarf",
+  "consularsorigins:gnome",
+  "consularsorigins:golem",
+  "consularsorigins:kobold",
+  "consularsorigins:skeleton",
+  "consularsorigins:stoneling",
+  "consularsorigins:wither_skeleton"
+  ]
+}

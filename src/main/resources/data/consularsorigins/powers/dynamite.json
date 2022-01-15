@@ -1,0 +1,17 @@
+{
+    "type": "origins:fire_projectile",
+    "cooldown": 1800,
+    "hud_render": {
+      "bar_index": 8,
+      "sprite_location": "consularsorigins:gui/ability_bars.png"
+    },
+    "entity_type": "minecraft:tnt",
+    "sound": "entity.arrow.shoot",
+    "tag": "{Fuse:40}",
+    "speed": 0.5,
+    "divergence": 1,
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    }
+}

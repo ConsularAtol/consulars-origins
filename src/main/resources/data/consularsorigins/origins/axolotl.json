@@ -1,0 +1,19 @@
+{
+  "powers": [
+  "consularsorigins:playdead",
+  "consularsorigins:waterspawn",
+  "consularsorigins:airconserve",
+  "consularsorigins:waterlegs",
+  "origins:water_breathing",
+	"consularsorigins:water_vision",
+	"origins:aqua_affinity",
+	"origins:swim_speed",
+	"origins:like_water",
+	"origins:aquatic",
+	"origins:conduit_power_on_land",
+	"origins:air_from_potions"
+  ],
+  "icon": "axolotl_bucket",
+  "order": 1,
+  "impact": 3
+}

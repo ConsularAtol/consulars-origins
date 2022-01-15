@@ -1,0 +1,14 @@
+{
+  "powers": [
+  "consularsorigins:fire_immunity",
+  "consularsorigins:shoot_flaming_arrow",
+  "consularsorigins:darkgrayskin",
+  "consularsorigins:supercharge",
+  "consularsorigins:alreadydead",
+  "consularsorigins:alreadywither"
+  ],
+  "unchoosable": true,
+  "icon": "tipped_arrow",
+  "order": 1,
+  "impact": 2
+}

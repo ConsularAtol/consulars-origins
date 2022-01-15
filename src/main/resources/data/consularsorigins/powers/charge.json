@@ -1,0 +1,22 @@
+{
+  "type": "origins:multiple",
+  "sword_boost": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "generic.movement_speed",
+	  "operation": "addition",
+	  "value": 0.008
+	},
+	"condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "mainhand",
+	  "item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "consularsorigins:swords"
+		}
+	  }
+	}
+  }
+}

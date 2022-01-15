@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ETE",
+        " B "
+    ],
+    "key": {
+        "T": {
+            "item": "consularsorigins:golemtotem_top"
+        },
+        "B": {
+          "item": "consularsorigins:golemtotem_bottom"
+      },
+        "E": {
+          "item": "minecraft:emerald"
+      }
+    },
+    "result": {
+        "item": "consularsorigins:golemtotem"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "powers": [
+	"consularsorigins:hastey",
+	"consularsorigins:half_sized",
+  "consularsorigins:strongerpickaxe",
+  "consularsorigins:light",
+  "consularsorigins:dynamite"
+  ],
+  "icon": "golden_pickaxe",
+  "order": 1,
+  "impact": 2,
+  "unchoosable": true
+}

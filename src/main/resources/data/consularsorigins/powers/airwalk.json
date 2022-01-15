@@ -1,0 +1,25 @@
+{
+    "type": "origins:active_self",
+            "cooldown": 300,
+            "entity_action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "duration": 200,
+                    "is_ambient": true,
+                    "show_particles": false,
+                    "show_icon": true,
+                    "effect": "levitation",
+                    "amplifier": 255
+                }
+            },
+            "hud_render": {
+                "should_render": true,
+                "sprite_location": "consularsorigins:gui/ability_bars.png",
+                "bar_index": 0,
+                "condition": {
+                    "type": "origins:power_active",
+                    "inverted": false,
+                    "power": "origins:phantomize"
+                }
+            }
+  }

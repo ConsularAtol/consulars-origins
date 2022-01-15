@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "consularsorigins:golemtotem_topshell"
+    },
+    "result": "consularsorigins:golemtotem_top",
+    "count": 1
+}

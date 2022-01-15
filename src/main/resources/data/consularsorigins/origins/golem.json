@@ -1,0 +1,14 @@
+{
+  "powers": [
+	"consularsorigins:noveins",
+	"consularsorigins:super_armor",
+	"consularsorigins:strong",
+	"consularsorigins:nighteye",
+  "origins:strong_arms",
+  "consularsorigins:grayskin"
+  ],
+  "icon": "consularsorigins:golemtotem",
+  "unchoosable": true,
+  "order": 1,
+  "impact": 3
+}

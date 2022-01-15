@@ -1,0 +1,21 @@
+{
+  "powers": [
+	"consularsorigins:noveins",
+	"origins:natural_armor",
+	"consularsorigins:habitatboundstoneling",
+	"consularsorigins:nighteye",
+  "origins:strong_arms",
+  "consularsorigins:cavedweller",
+  "consularsorigins:grayskin"
+  ],
+  "upgrades": [
+    {
+      "condition": "consularsorigins:used_golem_totem",
+      "origin": "consularsorigins:golem",
+      "announcement": "text.consularsorigins.become_golem"
+    }
+  ],
+  "icon": "stone",
+  "order": 1,
+  "impact": 3
+}

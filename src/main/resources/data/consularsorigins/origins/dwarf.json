@@ -1,0 +1,12 @@
+{
+  "powers": [
+	"consularsorigins:dash",
+	"consularsorigins:half_sized",
+  "consularsorigins:light",
+  "consularsorigins:wieldy"
+  ],
+  "icon": "golden_sword",
+  "order": 1,
+  "impact": 2,
+  "unchoosable": true
+}
