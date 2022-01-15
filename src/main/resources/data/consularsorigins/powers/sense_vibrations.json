@@ -1,0 +1,13 @@
+{
+    "type": "origins:entity_glow",
+    "entity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:sneaking",
+                "inverted": true
+            }
+        ]
+    },
+    "hidden": true
+}

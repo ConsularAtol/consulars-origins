@@ -107,5 +107,14 @@
   "power.consularsorigins.super_armor.name": "Super Armor",
   "power.consularsorigins.super_armor.description": "You have even more natural armor than before!",
   "power.consularsorigins.strong.name": "Strong",
-  "power.consularsorigins.strong.description": "You always have a +1 damage boost"
+  "power.consularsorigins.strong.description": "You always have a +1 damage boost",
+  
+  "origin.consularsorigins.warden.name": "Warden",
+  "origin.consularsorigins.warden.description": "The Warden is a blind creature that relies completely on vibrations.",
+  "power.consularsorigins.blind.name": "Blind",
+  "power.consularsorigins.blind.description": "You are completely blind, this also means you cannot sprint.",
+  "power.consularsorigins.sculk_shader.name": "Vibrations",
+  "power.consularsorigins.sculk_shader.description": "You can see any entity that is moving without sneaking. And you can make out small details in textures.",
+  "power.consularsorigins.big.name": "Big",
+  "power.consularsorigins.big.description": "You are slightly bigger than usual, with slightly more health and less movement speed."
 }
