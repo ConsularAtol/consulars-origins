@@ -1,0 +1,9 @@
+{
+	"powers": [
+		"consularsorigins:blind",
+		"consularsorigins:sculk_shader"
+	],
+	"icon": "minecraft:skulk_sensor",
+	"order": 4,
+	"impact": 3
+}
