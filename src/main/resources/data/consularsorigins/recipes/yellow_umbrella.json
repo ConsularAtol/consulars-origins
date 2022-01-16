@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "consularsorigins:white_umbrella"
+        },
+        {
+            "item": "minecraft:yellow_dye"
+        }
+    ],
+    "result": {
+        "item": "consularsorigins:yellow_umbrella"
+  }
+}

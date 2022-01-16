@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+      "consularsorigins:red_umbrella",
+      "consularsorigins:black_umbrella",
+      "consularsorigins:blue_umbrella",
+      "consularsorigins:brown_umbrella",
+      "consularsorigins:green_umbrella",
+      "consularsorigins:white_umbrella",
+      "consularsorigins:yellow_umbrella",
+      "consularsorigins:light_blue_umbrella",
+      "consularsorigins:light_gray_umbrella",
+      "consularsorigins:lime_umbrella",
+      "consularsorigins:magenta_umbrella",
+      "consularsorigins:orange_umbrella",
+      "consularsorigins:pink_umbrella",
+      "consularsorigins:cyan_umbrella",
+      "consularsorigins:gray_umbrella",
+      "consularsorigins:purple_umbrella"
+    ]
+  }
