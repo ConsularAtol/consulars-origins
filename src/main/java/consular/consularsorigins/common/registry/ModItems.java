@@ -10,7 +10,7 @@ public class ModItems{
     public static final Item GOLEMTOTEM_BOTTOM = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS)); 
 	public static final Item GOLEMTOTEM_TOP = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS)); 
 	public static final Item GOLEMTOTEM_TOPSHELL = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS));
-    public static final Item GOLEMTOTEM = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS).maxCount(1));
+    public static final Item GOLEMTOTEM = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS));
 
     public static void registerItems(){
         Registry.register(Registry.ITEM, new Identifier(ConsularsOrigins.MODID,"golemtotem_bottom"), GOLEMTOTEM_BOTTOM);
