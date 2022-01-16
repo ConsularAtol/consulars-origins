@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"consularsorigins:desaturate",
+		"consularsorigins:interchangeable",
+		"consularsorigins:vampire_burn",
+		"consularsorigins:speedy",
+		"consularsorigins:life_steal"
+	],
+	"upgrades": [
+		{
+		  "condition": "consularsorigins:interchange",
+		  "origin": "consularsorigins:vampire_bat"
+		}
+	  ],
+	"icon": "pointed_dripstone",
+	"order": 4,
+	"impact": 3,
+	"hidden": true
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "killedwither": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "consularsorigins:remove_interchange_advancement"
+  }
+}

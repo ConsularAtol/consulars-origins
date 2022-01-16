@@ -12,6 +12,8 @@
   "consularsorigins:stoneling",
   "consularsorigins:wither_skeleton",
   "consularsorigins:warden",
-  "consularsorigins:bat"
+  "consularsorigins:bat",
+  "consularsorigins:vampire",
+  "consularsorigins:vampire_bat"
   ]
 }

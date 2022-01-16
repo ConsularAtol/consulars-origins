@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#P#",
+      "PBP",
+      "#P#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:diamond"
+      },
+      "P": {
+          "tag": "minecraft:planks"
+      },
+      "B": {
+          "tag": "minecraft:beds"
+      }
+  },
+  "result": {
+      "item": "consularsorigins:coffin",
+      "count": 1
+  }
+}

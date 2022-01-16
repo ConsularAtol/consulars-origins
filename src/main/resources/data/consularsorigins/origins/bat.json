@@ -4,6 +4,13 @@
 		"consularsorigins:flying",
 		"consularsorigins:tiny"
 	],
+	"upgrades": [
+		{
+		  "condition": "consularsorigins:used_coffin",
+		  "origin": "consularsorigins:vampire_bat",
+		  "announcement": "text.consularsorigins.become_vampire"
+		}
+	  ],
 	"icon": "pointed_dripstone",
 	"order": 4,
 	"impact": 3

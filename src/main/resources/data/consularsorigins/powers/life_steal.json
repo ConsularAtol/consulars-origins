@@ -1,0 +1,17 @@
+{
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:instant_health",
+        "amplifier": 0,
+        "duration": 1
+      }
+    },
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "consularsorigins:gui/ability_bars.png",
+      "bar_index": 10
+    }
+  }

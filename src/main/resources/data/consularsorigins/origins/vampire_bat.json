@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"consularsorigins:desaturate",
+		"consularsorigins:flying",
+		"consularsorigins:tiny",
+		"consularsorigins:interchangeable"
+	],
+	"upgrades": [
+		{
+		  "condition": "consularsorigins:interchange",
+		  "origin": "consularsorigins:vampire"
+		}
+	  ],
+	"icon": "pointed_dripstone",
+	"order": 4,
+	"impact": 3,
+	"hidden": true
+}

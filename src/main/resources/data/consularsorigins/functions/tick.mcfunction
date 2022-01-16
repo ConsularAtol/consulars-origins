@@ -1,5 +1,6 @@
 function consularsorigins:golemtotem
 function consularsorigins:used_pickaxe
 function consularsorigins:used_sword
+function consularsorigins:coffin
 
 advancement revoke @a only consularsorigins:tick_handler
