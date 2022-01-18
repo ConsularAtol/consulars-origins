@@ -26,6 +26,7 @@ public class ModItems{
     public static final Item CYAN_UMBRELLA = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS));
     public static final Item GRAY_UMBRELLA = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS));
     public static final Item PURPLE_UMBRELLA = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS));
+    public static final Item BLUE_UMBRELLA = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS));
     public static final Item COFFIN = new Item(new Item.Settings().group(ConsularsOrigins.CONSULARS));
 
     public static void registerItems(){
@@ -48,6 +49,7 @@ public class ModItems{
         Registry.register(Registry.ITEM, new Identifier(ConsularsOrigins.MODID,"cyan_umbrella"), CYAN_UMBRELLA);
         Registry.register(Registry.ITEM, new Identifier(ConsularsOrigins.MODID,"gray_umbrella"), GRAY_UMBRELLA);
         Registry.register(Registry.ITEM, new Identifier(ConsularsOrigins.MODID,"purple_umbrella"), PURPLE_UMBRELLA);
+        Registry.register(Registry.ITEM, new Identifier(ConsularsOrigins.MODID,"blue_umbrella"), BLUE_UMBRELLA);
         Registry.register(Registry.ITEM, new Identifier(ConsularsOrigins.MODID,"coffin"), COFFIN);
     }
 }
