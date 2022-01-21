@@ -1,56 +1,14 @@
 {
-  "type": "origins:multiple",
-  "modify_size": {
-	"type": "consularsorigins:modify_size",
-	"scale": 1
-  },
-  "attribute_modifiers": {
-	"type": "origins:attribute",
-	"modifiers": [
-	  {
-		"name": "Origin modifier",
-		"attribute": "generic.max_health",
-		"operation": "addition",
-		"value": 0
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "generic.attack_speed",
-		"operation": "addition",
-		"value": 0
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "generic.attack_damage",
-		"operation": "addition",
-		"value": 0
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "generic.movement_speed",
-		"operation": "addition",
-		"value": 0
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "reach-entity-attributes:attack_range",
-		"operation": "addition",
-		"value": 0
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "reach-entity-attributes:reach",
-		"operation": "addition",
-		"value": 0
-	  }
-	]
-  },
-  "jump_modifier": {
-	"type": "origins:modify_jump",
-	"modifier": {
-	  "name": "Origin modifier",
-	  "operation": "multiply_total",
-	  "value": 0
-	}
-  }
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect":{
+        "effect": "minecraft:strength",
+        "duration": 1,
+        "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    }
 }
