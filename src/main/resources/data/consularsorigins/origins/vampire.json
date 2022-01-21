@@ -15,5 +15,5 @@
 	"icon": "pointed_dripstone",
 	"order": 4,
 	"impact": 3,
-	"hidden": true
+	"unchoosable": true
 }
