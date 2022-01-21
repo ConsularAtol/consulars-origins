@@ -11,4 +11,5 @@ public class ModTags {
 	public static final Tag<Item> GOLDEN_TOOLS = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "golden_tools"));
 	public static final Tag<Item> NETHERITE_ARMOR = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "netherite_armor"));
 	public static final Tag<Item> NETHERITE_TOOLS = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "netherite_tools"));
+	public static final Tag<Item> UMBRELLAS = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "umbrellas"));
 }
