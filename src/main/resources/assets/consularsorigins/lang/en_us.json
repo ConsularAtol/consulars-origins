@@ -54,7 +54,7 @@
   "origin.consularsorigins.kobold.name": "Kobold",
   "origin.consularsorigins.kobold.description": "A species of 1 block tall people who mine better than humans.",
   "power.consularsorigins.dash.name": "Dash",
-  "power.consularsorigins.dash.description": "You can dash forward as long as you're not in water.",
+  "power.consularsorigins.dash.description": "You can dash in the direction you're facing in.",
   "power.consularsorigins.dynamite.name": "Dynamite",
   "power.consularsorigins.dynamite.description": "You can throw tnt at any time.",
 
@@ -124,7 +124,7 @@
   "power.consularsorigins.super_armor.name": "Super Armor",
   "power.consularsorigins.super_armor.description": "You have even more natural armor than before!",
   "power.consularsorigins.strong.name": "Strong",
-  "power.consularsorigins.strong.description": "You always have a +1 damage boost",
+  "power.consularsorigins.strong.description": "You do more damage than usual.",
   
   "origin.consularsorigins.warden.name": "Warden",
   "origin.consularsorigins.warden.description": "The Warden is a blind creature that relies completely on vibrations.",
@@ -158,5 +158,14 @@
   "power.consularsorigins.speedy.description": "You move faster than usual.",
   "power.consularsorigins.life_steal.name": "Life Steal",
   "power.consularsorigins.life_steal.description": "You gain health when damaging other entities.",
-  "text.consularsorigins.become_vampire": "You have become a Vampire!"
+  "text.consularsorigins.become_vampire": "You have become a Vampire!",
+
+  "origin.consularsorigins.vex.name": "Vex",
+  "origin.consularsorigins.vex.description": "Vex are small creatures with the ability of flight, and going through walls.",
+  "power.consularsorigins.vex_flight.name": "Vex Flight",
+  "power.consularsorigins.vex_flight.description": "You can fly so long as you are phasing.",
+  "power.consularsorigins.sword_boost.name": "Sword Master",
+  "power.consularsorigins.sword_boost.description": "You do +2 damage with swords.",
+  "power.consularsorigins.vex_dash.name": "Dash",
+  "power.consularsorigins.vex_dash.description": "You can dash in the direction you're facing in."
 }
