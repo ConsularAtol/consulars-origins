@@ -1,0 +1,17 @@
+{
+  "powers": [
+	"consularsorigins:vex_dash",
+	"consularsorigins:tiny",
+  "consularsorigins:sword_boost",
+  "origins:phantomize",
+  "consularsorigins:ghost_skin",
+  "origins:phasing",
+  "origins:hunger_over_time",
+  "origins:phantomize_overlay",
+  "origins:invisibility",
+  "consularsorigins:vex_flight"
+  ],
+  "icon": "iron_sword",
+  "order": 1,
+  "impact": 3
+}
