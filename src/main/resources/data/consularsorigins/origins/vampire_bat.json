@@ -11,7 +11,7 @@
 		  "origin": "consularsorigins:vampire"
 		}
 	  ],
-	"icon": "pointed_dripstone",
+	"icon": "consularsorigins:coffin",
 	"order": 4,
 	"impact": 3,
 	"unchoosable": true
