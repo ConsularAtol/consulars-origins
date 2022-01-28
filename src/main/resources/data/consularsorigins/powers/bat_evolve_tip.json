@@ -1,0 +1,16 @@
+{
+    "type": "origins:tooltip",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "consularsorigins:coffin"
+        }
+    },
+    "text": "This item will make you evolve.",
+    "badges": [
+        {
+            "sprite": "consularsorigins:textures/items/coffin.png",
+            "text": "Craft a coffin to evolve."
+        }
+    ]
+}

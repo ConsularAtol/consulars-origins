@@ -33,6 +33,8 @@
   "power.consularsorigins.cavedweller.name": "Cave Dweller",
   "power.consularsorigins.cavedweller.description": "Your starting spawnpoint is in a mineshaft.",
   "text.consularsorigins.become_golem": "You have become a Golem!",
+  "power.consularsorigins.stoneling_evolve_tip.name": "Can Evolve",
+  "power.consularsorigins.stoneling_evolve_tip.description": "You can evolve.",
 
   "origin.consularsorigins.gnome.name": "Gnome",
   "origin.consularsorigins.gnome.description": "A species of 1 block tall people who pick up skills easily.",
@@ -145,6 +147,8 @@
   "power.consularsorigins.tiny.description": "You are half a block tall, at the cost of most of your health.",
   "power.consularsorigins.sensitive_eyes.name": "Sensitive Eyes",
   "power.consularsorigins.sensitive_eyes.description": "Your eyes are very sensitive. You can't see very well in direct sunlight.",
+  "power.consularsorigins.bat_evolve_tip.name": "Can Evolve",
+  "power.consularsorigins.bat_evolve_tip.description": "You can evolve.",
 
   "origin.consularsorigins.vampire.name": "Vampire",
   "origin.consularsorigins.vampire.description": "Vampires are humanoid creatures with the ability to transform into a bat. They will burn in daylight unless they have the proper protection.",

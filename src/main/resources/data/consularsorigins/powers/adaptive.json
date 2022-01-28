@@ -1,3 +1,13 @@
 {
-    "type": "origins:simple"
+    "type": "origins:simple",
+    "badges": [
+        {
+            "sprite": "minecraft:textures/item/golden_sword.png",
+            "text": "Use a sword to become profecient with them."
+        },
+        {
+            "sprite": "minecraft:textures/item/golden_pickaxe.png",
+            "text": "Use a pickaxe to become profecient with them."
+        }
+    ]
 }

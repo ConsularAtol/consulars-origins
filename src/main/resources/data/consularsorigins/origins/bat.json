@@ -2,7 +2,8 @@
 	"powers": [
 		"consularsorigins:desaturate",
 		"consularsorigins:flying",
-		"consularsorigins:tiny"
+		"consularsorigins:tiny",
+		"consularsorigins:bat_evolve_tip"
 	],
 	"upgrades": [
 		{

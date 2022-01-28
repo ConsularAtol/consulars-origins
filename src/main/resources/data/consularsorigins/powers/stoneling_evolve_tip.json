@@ -1,0 +1,16 @@
+{
+    "type": "origins:tooltip",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "consularsorigins:golemtotem"
+        }
+    },
+    "text": "This item will make you evolve.",
+    "badges": [
+        {
+            "sprite": "consularsorigins:textures/items/golemtotem.png",
+            "text": "Craft a golemtotem to evolve."
+        }
+    ]
+}
