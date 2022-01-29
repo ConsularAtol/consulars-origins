@@ -5,7 +5,8 @@
 		"consularsorigins:sculk_shader",
 		"consularsorigins:sense_vibrations",
 		"consularsorigins:big",
-		"origins:no_shield"
+		"origins:no_shield",
+		"consularsorigins:warden_hud"
 	],
 	"icon": "deepslate",
 	"order": 4,

@@ -1,0 +1,5 @@
+{
+    "type": "origins:status_bar_texture",
+    "texture": "consularsorigins:gui/hud/warden_icons.png",
+    "hidden": true
+}
