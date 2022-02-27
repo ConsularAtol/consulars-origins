@@ -13,7 +13,7 @@
 	  "item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {
-		  "tag": "consularsorigins:pickaxes"
+		  "tag": "fabric:pickaxes"
 		}
 	  }
 	}
