@@ -1,11 +1,24 @@
 {
-  "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
   "criteria": {
-    "c1": {
-        "trigger": "minecraft:impossible"
+    "golemtotem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "consularsorigins:golemtotem"
+            ]
+          }
+        ]
       }
-    },
+    }
+  },
+  "requirements": [
+    [
+      "golemtotem"
+    ]
+  ],
   "rewards": {
-    "function": "consularsorigins:remove_golem_advancement"
+    "function": "consularsorigins:golemtotem"
   }
 }

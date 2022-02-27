@@ -1,16 +1,16 @@
 {
   "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
   "criteria": {
-    "Use": {
-        "trigger": "minecraft:consume_item",
+    "c1": {
+        "trigger": "minecraft:item_durability_changed",
         "conditions": {
             "item": {
-                "item": "origins:orb_of_origin"
+                "tag": "fabric:pickaxes"
             }
         }
-    }
-  },
+      }
+    },
   "rewards": {
-    "function": "consularsorigins:remove_pickaxe_advancement"
+    "function": "consularsorigins:pickaxe"
   }
 }

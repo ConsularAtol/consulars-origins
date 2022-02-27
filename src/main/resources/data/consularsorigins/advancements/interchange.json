@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "killedwither": {
+    "interchanged": {
       "trigger": "minecraft:impossible"
     }
   },

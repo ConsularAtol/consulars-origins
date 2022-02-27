@@ -1,1 +1,0 @@
-advancement revoke @p only consularsorigins:used_coffin_totem
