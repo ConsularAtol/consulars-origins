@@ -165,11 +165,18 @@
   "text.consularsorigins.become_vampire": "You have become a Vampire!",
 
   "origin.consularsorigins.vex.name": "Vex",
-  "origin.consularsorigins.vex.description": "Vex are small creatures with the ability of flight, and going through walls.",
+  "origin.consularsorigins.vex.description": "Vexes are small creatures with the ability of flight, and going through walls.",
   "power.consularsorigins.vex_flight.name": "Vex Flight",
   "power.consularsorigins.vex_flight.description": "You can fly so long as you are phasing.",
   "power.consularsorigins.sword_boost.name": "Sword Master",
   "power.consularsorigins.sword_boost.description": "You do +2 damage with swords.",
   "power.consularsorigins.vex_dash.name": "Dash",
-  "power.consularsorigins.vex_dash.description": "You can dash in the direction you're facing in."
+  "power.consularsorigins.vex_dash.description": "You can dash in the direction you're facing in.",
+
+  "origin.consularsorigins.fairy.name": "Fairy",
+  "origin.consularsorigins.fairy.description": "Fairies are small, winged, magical, creatures.",
+  "power.consularsorigins.fairy_flight.name": "Fairy Flight",
+  "power.consularsorigins.fairy_flight.description": "You can fly whenever you aren't in water or rain.",
+  "power.consularsorigins.effect_immunity.name": "Magical",
+  "power.consularsorigins.effect_immunity.description": "Due to being magical, you are uneffected by any potion effect. Even good ones. (You can still be effected by Saturation, Bad Omen, and Hero of the Village)"
 }

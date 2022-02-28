@@ -1,0 +1,12 @@
+{
+  "powers": [
+	"consularsorigins:half_sized",
+  "consularsorigins:fairy_flight",
+  "consularsorigins:effect_immunity",
+  "origins:light_armor",
+  "origins:no_shield"
+  ],
+  "icon": "splash_potion",
+  "order": 1,
+  "impact": 2
+}

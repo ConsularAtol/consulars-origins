@@ -1,0 +1,16 @@
+{
+    "type": "origins:creative_flight",
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_rain"
+        },
+        {
+          "type": "origins:submerged_in",
+          "fluid": "water"
+        }
+      ],
+      "inverted": true
+    }
+}
