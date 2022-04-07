@@ -1,0 +1,32 @@
+{
+    "type": "origins:active_self",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:xp_levels",
+                "comparison": ">=",
+                "compare_to": 1
+            },
+            {
+                "type": "origins:food_level",
+                "comparison": "<",
+                "compare_to": 20
+            }
+        ]
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_xp",
+                "levels": -1
+            },
+            {
+                "type": "origins:feed",
+                "food": 10,
+                "saturation": 10
+            }
+        ]
+    }
+}

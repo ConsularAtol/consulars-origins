@@ -8,7 +8,9 @@
 	"PiglinBrainMixin",
 	"PiglinBruteBrainMixin",
 	"TargetPredicateAccessor",
-	"TrackTargetGoalMixin"
+	"TrackTargetGoalMixin",
+  "EnchantmentHelperMixin",
+  "EnchantmentScreenHandlerMixin"
   ],
   "injectors": {
 	"defaultRequire": 1

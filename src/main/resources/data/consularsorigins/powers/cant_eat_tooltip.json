@@ -1,0 +1,8 @@
+{
+    "type": "origins:tooltip",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "text": "Can't eat",
+    "hidden": true
+}

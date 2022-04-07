@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 
 public class ConsularsOrigins implements ModInitializer {
 	public static final String MODID = "consularsorigins";
+
+	public static boolean isEnchantlingEnchanting;
 	
 	public static final ItemGroup CONSULARS = FabricItemGroupBuilder.build(
 		new Identifier(MODID, "origins"),

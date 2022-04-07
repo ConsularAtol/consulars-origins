@@ -178,5 +178,15 @@
   "power.consularsorigins.fairy_flight.name": "Fairy Flight",
   "power.consularsorigins.fairy_flight.description": "You can fly whenever you aren't in water or rain.",
   "power.consularsorigins.effect_immunity.name": "Magical",
-  "power.consularsorigins.effect_immunity.description": "Due to being magical, you are uneffected by any potion effect. Even good ones. (You can still be effected by Saturation, Bad Omen, and Hero of the Village)"
+  "power.consularsorigins.effect_immunity.description": "Due to being magical, you are uneffected by any potion effect. Even good ones. (You can still be effected by Saturation, Bad Omen, and Hero of the Village)",
+
+  "origin.consularsorigins.enchantling.name": "Enchantling",
+  "origin.consularsorigins.enchantling.description": "Enchantlings are mysterious creatures born from wishes of others and magic of the land. (Suggested by reshmi herdin)",
+  "power.consularsorigins.knowledge_hunger.name": "Hungry for Knowledge",
+  "power.consularsorigins.knowledge_hunger.description": "You can't eat normal food. However, you can eat from your experience bar.",
+  "power.consularsorigins.better_enchanting.name": "Magical Touch",
+  "power.consularsorigins.better_enchanting.description": "You get better enchantments from enchanting tables.",
+  "power.consularsorigins.quick_learner.name": "Quick Learner",
+  "power.consularsorigins.quick_learner.description": "If there are 4 or more bookshelves nearby, you can study them to gain xp.",
+  "power.consularsorigins.cant_eat.name": "Hungry for Knowledge"
 }

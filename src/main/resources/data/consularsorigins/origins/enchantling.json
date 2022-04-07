@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "consularsorigins:knowledge_hunger",
+    "consularsorigins:quick_learner",
+    "consularsorigins:better_enchanting",
+    "consularsorigins:effect_immunity",
+    "consularsorigins:cant_eat"
+  ],
+  "icon": "enchanting_table",
+  "order": 1,
+  "impact": 3
+}
