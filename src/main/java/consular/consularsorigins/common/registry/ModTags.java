@@ -1,15 +1,15 @@
 package consular.consularsorigins.common.registry;
 
 import consular.consularsorigins.common.ConsularsOrigins;
-import net.fabricmc.fabric.api.tag.TagFactory;
 import net.minecraft.item.Item;
-import net.minecraft.tag.Tag;
+import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModTags {
-	public static final Tag<Item> GOLDEN_ARMOR = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "golden_armor"));
-	public static final Tag<Item> GOLDEN_TOOLS = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "golden_tools"));
-	public static final Tag<Item> NETHERITE_ARMOR = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "netherite_armor"));
-	public static final Tag<Item> NETHERITE_TOOLS = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "netherite_tools"));
-	public static final Tag<Item> UMBRELLAS = TagFactory.ITEM.create(new Identifier(ConsularsOrigins.MODID, "umbrellas"));
+	public static final TagKey<Item> GOLDEN_ARMOR = TagKey.of(Registry.ITEM_KEY, new Identifier(ConsularsOrigins.MODID, "golden_armor"));
+	public static final TagKey<Item> GOLDEN_TOOLS = TagKey.of(Registry.ITEM_KEY, new Identifier(ConsularsOrigins.MODID, "golden_tools"));
+	public static final TagKey<Item> NETHERITE_ARMOR = TagKey.of(Registry.ITEM_KEY, new Identifier(ConsularsOrigins.MODID, "netherite_armor"));
+	public static final TagKey<Item> NETHERITE_TOOLS = TagKey.of(Registry.ITEM_KEY, new Identifier(ConsularsOrigins.MODID, "netherite_tools"));
+	public static final TagKey<Item> UMBRELLAS = TagKey.of(Registry.ITEM_KEY, new Identifier(ConsularsOrigins.MODID, "umbrellas"));
 }
