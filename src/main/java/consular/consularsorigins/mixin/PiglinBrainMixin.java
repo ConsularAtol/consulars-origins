@@ -13,21 +13,21 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(PiglinBrain.class)
-public abstract class PiglinBrainMixin {
+public class PiglinBrainMixin {
 	@Inject(method = "wearsGoldArmor", at = @At("HEAD"), cancellable = true)
-	private static void wearsGoldArmor(LivingEntity target, CallbackInfoReturnable<Boolean> callbackInfo) {
-		PowerHolderComponent.getPowers(target, MobNeutralityPower.class).forEach(power -> {
-			if (power.entityTypes.contains(EntityType.PIGLIN)) {
-				callbackInfo.setReturnValue(true);
+	private static void consularsorigins$mobNeutrality(LivingEntity target, CallbackInfoReturnable<Boolean> cir) {
+		PowerHolderComponent.getPowers(target, MobNeutralityPower.class).forEach(mobNeutralityPower -> {
+			if (mobNeutralityPower.shouldBeNeutral(EntityType.PIGLIN)) {
+				cir.setReturnValue(true);
 			}
 		});
 	}
-	
+
 	@Inject(method = "onGuardedBlockInteracted", at = @At("HEAD"), cancellable = true)
-	private static void onGuardedBlockInteracted(PlayerEntity player, boolean blockOpen, CallbackInfo callbackInfo) {
-		PowerHolderComponent.getPowers(player, MobNeutralityPower.class).forEach(power -> {
-			if (power.entityTypes.contains(EntityType.PIGLIN)) {
-				callbackInfo.cancel();
+	private static void consularsorigins$mobNeutrality(PlayerEntity player, boolean blockOpen, CallbackInfo ci) {
+		PowerHolderComponent.getPowers(player, MobNeutralityPower.class).forEach(mobNeutralityPower -> {
+			if (mobNeutralityPower.shouldBeNeutral(EntityType.PIGLIN)) {
+				ci.cancel();
 			}
 		});
 	}
