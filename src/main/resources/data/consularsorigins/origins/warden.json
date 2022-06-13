@@ -2,7 +2,10 @@
 	"powers": [
 		"consularsorigins:blind",
 		"consularsorigins:strong",
+		"consularsorigins:cityspawn",
 		"consularsorigins:sculk_shader",
+		"consularsorigins:silentstep",
+		"consularsorigins:darkness_immunity",
 		"consularsorigins:sense_vibrations",
 		"consularsorigins:big",
 		"origins:no_shield",
