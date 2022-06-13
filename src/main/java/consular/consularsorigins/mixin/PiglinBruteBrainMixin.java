@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @Mixin(PiglinBruteBrain.class)
 public abstract class PiglinBruteBrainMixin {
-	@Inject(method = "method_30249", at = @At("RETURN"), cancellable = true)
+	@Inject(method = "getTargetIfInRange", at = @At("RETURN"), cancellable = true)
 	private static void method_30249(AbstractPiglinEntity piglin, MemoryModuleType<LivingEntity> memoryModuleType, CallbackInfoReturnable<Optional<LivingEntity>> callbackInfo) {
 		if (callbackInfo.getReturnValue().isPresent()) {
 			piglin.getBrain().getOptionalMemory(memoryModuleType).filter(entity -> {
