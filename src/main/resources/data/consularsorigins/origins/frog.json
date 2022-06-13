@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"consularsorigins:fragile",
+		"consularsorigins:strong_legs",
+		"consularsorigins:frog_size",
+		"consularsorigins:swamp_inhabitant"
+	],
+	"icon": "lily_pad",
+	"order": 4,
+	"impact": 3
+}

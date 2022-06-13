@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "consularsorigins:poisonous",
+    "consularsorigins:venomous",
+    "consularsorigins:implant",
+    "consularsorigins:love_for_mushrooms",
+    "consularsorigins:smol",
+    "consularsorigins:mushroom_inhabitant",
+    "consularsorigins:antivenom",
+    "origins:light_armor"
+  ],
+  "icon": "mycelium",
+  "order": 1,
+  "impact": 3
+}

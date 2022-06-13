@@ -1,0 +1,12 @@
+{
+  "powers": [
+  "consularsorigins:climbing",
+  "consularsorigins:dash",
+  "consularsorigins:humid_speed",
+  "consularsorigins:cold_slow",
+  "consularsorigins:lizardling_size"
+  ],
+  "icon": "jungle_leaves",
+  "order": 1,
+  "impact": 2
+}

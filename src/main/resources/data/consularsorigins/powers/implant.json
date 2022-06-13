@@ -1,0 +1,48 @@
+{
+    "type": "origins:multiple",
+    "toggle": {
+      "type": "origins:toggle",
+      "active_by_default": false,
+      "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+      }
+    },
+    "effect": {
+      "type": "origins:stacking_status_effect",
+      "min_stacks": 0,
+      "max_stacks": 1,
+      "tick_rate": 20,
+      "duration_per_stack": 60,
+      "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "amplifier": 255,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+          "effect": "minecraft:regeneration",
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+        }
+      ],
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+    }
+    },
+    "disable_jump": {
+      "type": "origins:modify_jump",
+      "modifier": {
+        "operation": "multiply_total",
+        "value": -10
+      },
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    }
+}

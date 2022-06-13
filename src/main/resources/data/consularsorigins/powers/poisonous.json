@@ -1,0 +1,20 @@
+{
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:poison",
+                "duration": 50,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ]
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "bar_index": 12,
+        "sprite_location": "consularsorigins:gui/ability_bars.png"
+      }
+}

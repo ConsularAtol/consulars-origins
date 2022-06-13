@@ -1,0 +1,31 @@
+{   
+    "type": "origins:multiple",
+    "speed": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Speed increase",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.02,
+            "operation": "addition"
+        }
+    },
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.4
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "z": 0.3,
+            "space": "local"
+        }
+    },
+    "falldamage": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        }
+    }
+}
