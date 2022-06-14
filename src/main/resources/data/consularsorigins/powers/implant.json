@@ -6,14 +6,32 @@
       "key": {
         "key": "key.origins.primary_active",
         "continuous": false
+      },
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:on_block",
+            "block_condition": {
+              "type": "origins:in_tag",
+              "tag": "consularsorigins:soil_blocks"
+          }
+          },
+          {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        ]
       }
     },
     "effect": {
       "type": "origins:stacking_status_effect",
       "min_stacks": 0,
       "max_stacks": 1,
-      "tick_rate": 20,
-      "duration_per_stack": 60,
+      "tick_rate": 1,
+      "duration_per_stack": 2,
       "effects": [
         {
             "effect": "minecraft:slowness",
@@ -23,7 +41,7 @@
             "show_icon": true
         },
         {
-          "effect": "minecraft:regeneration",
+          "effect": "minecraft:saturation",
           "is_ambient": true,
           "show_particles": false,
           "show_icon": true
@@ -32,14 +50,40 @@
       "condition": {
         "type": "origins:power_active",
         "power": "*:*_toggle"
-    }
+      }
     },
     "disable_jump": {
       "type": "origins:modify_jump",
       "modifier": {
-        "operation": "multiply_total",
+        "operation": "addition",
         "value": -10
       },
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    },
+    "lower_air_speed": {
+      "type": "origins:modify_air_speed",
+      "modifier": {
+        "operation": "addition",
+        "value": -10
+      },
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    },
+    "prevent_sprint": {
+      "type": "origins:prevent_sprinting",
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    },
+    "hud": {
+      "type": "origins:status_bar_texture",
+      "texture": "consularsorigins:gui/hud/rooted_icons.png",
       "condition": {
         "type": "origins:power_active",
         "power": "*:*_toggle"
