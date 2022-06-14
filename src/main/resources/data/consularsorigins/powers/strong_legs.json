@@ -18,7 +18,9 @@
         "entity_action": {
             "type": "origins:add_velocity",
             "z": 0.3,
-            "space": "local"
+            "space": "local",
+            "client": true,
+            "server": false
         }
     },
     "falldamage": {
