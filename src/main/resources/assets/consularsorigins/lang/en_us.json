@@ -206,7 +206,8 @@
   "power.consularsorigins.humid_speed.description": "You move faster in humid areas.",
   "power.consularsorigins.cold_slow.name": "Slowed by Cold",
   "power.consularsorigins.cold_slow.description": "You move slower in cold areas.",
-  "power.consularsorigins.lizardling_size.name": "You are one block tall, and have 3 less hearts.",
+  "power.consularsorigins.lizardling_size.name": "Lizard Size",
+  "power.consularsorigins.lizardling_size.description": "You are one block tall, and have 3 less hearts.",
 
   "origin.consularsorigins.mushboi.name": "Mushling",
   "origin.consularsorigins.mushboi.description": "Born from the Mycelium, you are a mushroom. Mushrooms are poisonous, so you are poisonous. You inflict poison to anything you touch. You just love mushrooms so much.",
