@@ -20,6 +20,7 @@
   "item.consularsorigins.gray_umbrella": "Gray Umbrella",
   "item.consularsorigins.purple_umbrella": "Purple Umbrella",
   "item.consularsorigins.coffin": "Coffin",
+  "container.rat_mouth": "Mouth",
   "itemGroup.consularsorigins.origins": "Origin Dependancies",
 
   "origin.consularsorigins.stoneling.name": "Stoneling",
@@ -235,5 +236,27 @@
   "power.consularsorigins.swamp_inhabitant.name": "Swamp Inhabitant",
   "power.consularsorigins.swamp_inhabitant.description": "You spawn in a swamp",
   "power.consularsorigins.fragile.name": "Fragile",
-  "power.consularsorigins.fragile.description": "You have three less hearts than usual."
+  "power.consularsorigins.fragile.description": "You have three less hearts than usual.",
+
+  "origin.consularsorigins.rat.name": "Rat",
+  "origin.consularsorigins.rat.description": "Rats are natural scavengers, with the ability to scurry around and hide items in it's mouth, it's sure to cause some mischief! (Suggested by ratlover27)",
+  "power.consularsorigins.rat_size.name": "Rat Sized",
+  "power.consularsorigins.rat_size.description": "You are half a block tall",
+  "power.consularsorigins.rat_mouth.name": "Pack Mouth",
+  "power.consularsorigins.rat_mouth.description": "You can hold up to 5 items in your mouth",
+
+  "origin.consularsorigins.raccoon.name": "Racoon",
+  "origin.consularsorigins.raccoon.description": "Racoons are sneaky little creatures. They can camoflague into their environment and eat anything that's otherwise harmful.",
+  "power.consularsorigins.weasel.name": "Weasel",
+  "power.consularsorigins.weasel.description": "You are one block tall, but you have 3 less hearts. You also take less fall damage.",
+  "power.consularsorigins.opportunistic_eater.name": "Opportunistic Eater",
+  "power.consularsorigins.opportunistic_eater.description": "Raw food is more filling (but still not as good as cooking it). Rotten flesh and spider eyes are also more filling, and do not cause hunger or poison.",
+  "power.consularsorigins.scurry.name": "Scurry",
+  "power.consularsorigins.scurry.description": "You can gain a burst of speed for a short time, though you will be weakened.",
+  "power.consularsorigins.camoflague.name": "Sly Cooper",
+  "power.consularsorigins.camoflague.description": "You can blend in with the surroundings. You will not be able to climb while invisible.",
+  "power.consularsorigins.burrower.name": "Burrower",
+  "power.consularsorigins.burrower.description": "Being used to small spaces, you are uncomfortable in places with high ceilings. You will be slowed and weakened in areas taller than 3 blocks.",
+  "power.consularsorigins.nocturnal.name": "Nocturnal",
+  "power.consularsorigins.nocturnal.description": "As a nocturnal creature, you cannot sleep. However, you can still set your spawn in beds."
 }
