@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "entity_action": {
       "type": "origins:execute_command",
-            "command": "advancement grant @s only consularsorigins:interchange",
+            "command": "function consularsorigins:interchange",
             "permission_level": 4
     },
     "cooldown": 300,
