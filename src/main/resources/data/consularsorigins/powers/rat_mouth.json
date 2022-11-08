@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "title": "container.rat_mouth",
+    "container_type": "hopper",
+    "drop_on_death": true,
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    }
+  }

@@ -1,0 +1,12 @@
+{
+  "powers": [
+  "consularsorigins:rat_size",
+  "consularsorigins:climbing",
+  "consularsorigins:speedy",
+  "consularsorigins:rat_mouth",
+  "consularsorigins:nighteye"
+  ],
+  "icon": "bundle",
+  "order": 1,
+  "impact": 2
+}

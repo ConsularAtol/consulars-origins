@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "consularsorigins:weasel",
+    "consularsorigins:opportunistic_eater",
+    "consularsorigins:nighteye",
+    "consularsorigins:scurry",
+    "consularsorigins:camoflague",
+    "consularsorigins:sly_cooper",
+    "consularsorigins:climbing",
+    "consularsorigins:nocturnal",
+    "consularsorigins:burrower"
+  ],
+  "icon": "gray_wool",
+  "order": 1,
+  "impact": 2
+}
