@@ -6,21 +6,12 @@ import consular.consularsorigins.common.registry.ModPowers;
 import consular.consularsorigins.common.registry.ModScaleTypes;
 import consular.consularsorigins.common.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.Identifier;
 
 public class ConsularsOrigins implements ModInitializer {
 	public static final String MODID = "consularsorigins";
 
 	public static boolean isEnchantlingEnchanting;
-	
-	public static final ItemGroup CONSULARS = FabricItemGroupBuilder.build(
-		new Identifier(MODID, "origins"),
-		() -> new ItemStack(ModItems.GOLEMTOTEM)
-	);
 
 	@Override
 	public void onInitialize() {

@@ -12,7 +12,7 @@ import consular.consularsorigins.common.ConsularsOrigins;
 import consular.consularsorigins.common.power.MobNeutralityPower;
 import consular.consularsorigins.common.power.ModifySizePower;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 import virtuoel.pehkui.api.ScaleRegistries;
 
 import java.util.Collections;

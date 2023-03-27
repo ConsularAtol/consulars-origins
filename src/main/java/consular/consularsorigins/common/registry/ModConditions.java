@@ -7,9 +7,9 @@ import consular.consularsorigins.common.ConsularsOrigins;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Pair;
-import net.minecraft.util.registry.Registry;
 
 public class ModConditions {
 	public static final ConditionFactory<Entity> PIGLIN_SAFE = new ConditionFactory<>(new Identifier(ConsularsOrigins.MODID, "piglin_safe"), new SerializableData(), (instance, entity) -> entity.world.getDimension().piglinSafe());
