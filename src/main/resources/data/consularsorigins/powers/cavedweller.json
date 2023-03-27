@@ -1,6 +1,6 @@
 {
     "type": "origins:modify_player_spawn",
     "dimension": "minecraft:overworld",
-    "structure": "minecraft:mineshaft",
+    "biome": "minecraft:dripstone_caves",
     "spawn_strategy": "center"
   }
