@@ -1,0 +1,37 @@
+{
+    "type": "origins:multiple",
+    "toggle": {
+      "type": "origins:toggle",
+      "active_by_default": false,
+      "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+      }
+    },
+    "effect": {
+      "type": "origins:stacking_status_effect",
+      "min_stacks": 0,
+      "max_stacks": 1,
+      "tick_rate": 1,
+      "duration_per_stack": 2,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+        }
+      ],
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    },
+    "invisibility": {
+        "type": "origins:invisibility",
+        "condition":{
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "origins:creative_flight",
+    "condition": {
+      "type": "origins:health",
+      "comparison": ">",
+      "compare_to": 4
+    }
+}

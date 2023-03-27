@@ -1,0 +1,15 @@
+{
+  "type": "origins:multiple",
+  "sword_boost": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+	  "name": "Origin modifier",
+	  "attribute": "generic.movement_speed",
+	  "operation": "addition",
+	  "value": 0.02
+	},
+	"condition": {
+	  "type": "origins:daytime"
+	}
+  }
+}

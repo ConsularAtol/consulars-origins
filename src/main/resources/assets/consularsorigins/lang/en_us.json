@@ -258,5 +258,19 @@
   "power.consularsorigins.burrower.name": "Burrower",
   "power.consularsorigins.burrower.description": "Being used to small spaces, you are uncomfortable in places with high ceilings. You will be slowed and weakened in areas taller than 3 blocks.",
   "power.consularsorigins.nocturnal.name": "Nocturnal",
-  "power.consularsorigins.nocturnal.description": "As a nocturnal creature, you cannot sleep. However, you can still set your spawn in beds."
+  "power.consularsorigins.nocturnal.description": "As a nocturnal creature, you cannot sleep. However, you can still set your spawn in beds.",
+
+  "origin.consularsorigins.cloudling.name": "Cloudling",
+  "origin.consularsorigins.cloudling.description": "Cloudlings are descendants of the skies. In the right conditions, these creatures are very mobile. (Requested by EchoLocation)",
+  "power.consularsorigins.translucent.name": "Translucent",
+  "power.consularsorigins.translucent.description": "Your skin is see-through, making you harder to see.",
+  "power.consularsorigins.day_speed.name": "Sun Blocker",
+  "power.consularsorigins.day_speed.description": "You are slightly faster during the day",
+  "power.consularsorigins.cloudling_flight.name": "Nimbus",
+  "power.consularsorigins.cloudling_flight.description": "You can fly so long as your health is above 4 (2 hearts)",
+  "power.consularsorigins.cloud_armor.name": "Soft",
+  "power.consularsorigins.cloud_armor.description": "You can't wear any armor stronger than chainmail, as it is too heavy for your soft body.",
+  "power.consularsorigins.cloud_invisibility.name": "Clear Skies",
+  "power.consularsorigins.cloud_invisibility.description": "You can become completely invisible, at the cost of some of your hunger."
+
 }

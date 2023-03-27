@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"consularsorigins:translucent",
+		"consularsorigins:day_speed",
+		"consularsorigins:cloudling_flight",
+		"consularsorigins:cloud_armor",
+		"origins:no_shield",
+		"consularsorigins:cloud_invisibility"
+	],
+	"icon": "white_wool",
+	"order": 4,
+	"impact": 2
+}
