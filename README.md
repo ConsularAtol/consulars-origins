@@ -8,8 +8,6 @@ Thanks to Apace100 for creating the original Origins mod.
 
 This mod does require Pehkui and Origins to run properly.
 
-(https://user-images.githubusercontent.com/83845237/232245542-697a1063-472e-4103-af1b-1b89f4773b6a.png
-
 # FAQ
 
 Q: Will this mod be ported to Forge?
