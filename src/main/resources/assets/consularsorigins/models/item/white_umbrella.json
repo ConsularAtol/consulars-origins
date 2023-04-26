@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "consularsorigins:items/white_umbrella",
-		"particle": "consularsorigins:items/white_umbrella"
+		"0": "consularsorigins:item/white_umbrella",
+		"particle": "consularsorigins:item/white_umbrella"
 	},
 	"elements": [
 		{

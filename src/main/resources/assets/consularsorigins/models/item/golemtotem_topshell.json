@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "consularsorigins:items/golemtotem_topshell"
+        "layer0": "consularsorigins:item/golemtotem_topshell"
     }
 }
