@@ -1,0 +1,11 @@
+{
+  "powers": [
+  "consularsorigins:scavenger",
+  "consularsorigins:pep_in_your_step",
+  "consularsorigins:feel_the_music",
+  "consularsorigins:allay_size"
+  ],
+  "icon": "note_block",
+  "order": 1,
+  "impact": 1
+}
