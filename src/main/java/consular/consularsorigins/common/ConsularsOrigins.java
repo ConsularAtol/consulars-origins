@@ -2,6 +2,7 @@ package consular.consularsorigins.common;
 
 import consular.consularsorigins.common.network.packet.BoneMealPacket;
 import consular.consularsorigins.common.registry.ModConditions;
+import consular.consularsorigins.common.registry.ModItemGroups;
 import consular.consularsorigins.common.registry.ModPowers;
 import consular.consularsorigins.common.registry.ModScaleTypes;
 import consular.consularsorigins.common.registry.ModItems;
@@ -19,6 +20,7 @@ public class ConsularsOrigins implements ModInitializer {
 		ModScaleTypes.init();
 		ModPowers.init();
 		ModConditions.init();
+		ModItemGroups.registerItemGroups();
 		ServerPlayNetworking.registerGlobalReceiver(BoneMealPacket.ID, BoneMealPacket::receive);
 	};
 }

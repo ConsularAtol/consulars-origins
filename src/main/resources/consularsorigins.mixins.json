@@ -10,7 +10,9 @@
 	"TargetPredicateAccessor",
 	"TrackTargetGoalMixin",
   "EnchantmentHelperMixin",
-  "EnchantmentScreenHandlerMixin"
+  "EnchantmentScreenHandlerMixin",
+  "PlayerConditionsMixin",
+  "EntityMixin"
   ],
   "injectors": {
 	"defaultRequire": 1
