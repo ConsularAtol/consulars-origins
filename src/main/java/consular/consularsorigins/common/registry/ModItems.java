@@ -1,6 +1,7 @@
 package consular.consularsorigins.common.registry;
 
 import consular.consularsorigins.common.ConsularsOrigins;
+import consular.consularsorigins.common.item.UmbrellaItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -11,22 +12,22 @@ public class ModItems{
 	public static final Item GOLEMTOTEM_TOP = new Item(new Item.Settings()); 
 	public static final Item GOLEMTOTEM_TOPSHELL = new Item(new Item.Settings());
     public static final Item GOLEMTOTEM = new Item(new Item.Settings());
-    public static final Item RED_UMBRELLA = new Item(new Item.Settings());
-    public static final Item BLACK_UMBRELLA = new Item(new Item.Settings());
-    public static final Item BROWN_UMBRELLA = new Item(new Item.Settings());
-    public static final Item GREEN_UMBRELLA = new Item(new Item.Settings());
-    public static final Item WHITE_UMBRELLA = new Item(new Item.Settings());
-    public static final Item YELLOW_UMBRELLA = new Item(new Item.Settings());
-    public static final Item LIGHT_BLUE_UMBRELLA = new Item(new Item.Settings());
-    public static final Item LIGHT_GRAY_UMBRELLA = new Item(new Item.Settings());
-    public static final Item LIME_UMBRELLA = new Item(new Item.Settings());
-    public static final Item MAGENTA_UMBRELLA = new Item(new Item.Settings());
-    public static final Item ORANGE_UMBRELLA = new Item(new Item.Settings());
-    public static final Item PINK_UMBRELLA = new Item(new Item.Settings());
-    public static final Item CYAN_UMBRELLA = new Item(new Item.Settings());
-    public static final Item GRAY_UMBRELLA = new Item(new Item.Settings());
-    public static final Item PURPLE_UMBRELLA = new Item(new Item.Settings());
-    public static final Item BLUE_UMBRELLA = new Item(new Item.Settings());
+    public static final Item RED_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item BLACK_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item BROWN_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item GREEN_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item WHITE_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item YELLOW_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item LIGHT_BLUE_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item LIGHT_GRAY_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item LIME_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item MAGENTA_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item ORANGE_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item PINK_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item CYAN_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item GRAY_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item PURPLE_UMBRELLA = new UmbrellaItem(new Item.Settings());
+    public static final Item BLUE_UMBRELLA = new UmbrellaItem(new Item.Settings());
     public static final Item COFFIN = new Item(new Item.Settings());
 
     public static void registerItems(){
