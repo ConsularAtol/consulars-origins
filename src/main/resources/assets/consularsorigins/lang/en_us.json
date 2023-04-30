@@ -22,6 +22,8 @@
   "item.consularsorigins.coffin": "Coffin",
   "container.rat_mouth": "Mouth",
   "itemGroup.consularsorigins.origins": "Origin Dependancies",
+  "tooltip.consularsorigins.sun_protection": "Shields you from burning in daylight",
+  "tooltip.consularsorigins.rain_protection": "Shields you from being hurt by rain",
 
   "origin.consularsorigins.stoneling.name": "Stoneling",
   "origin.consularsorigins.stoneling.description": "A species of rock people that thrive in caves. It's rumoured that they can evolve using some kind of totem.",
@@ -186,8 +188,8 @@
   "origin.consularsorigins.fairy.description": "Fairies are small, winged, magical, creatures.",
   "power.consularsorigins.fairy_flight.name": "Fairy Flight",
   "power.consularsorigins.fairy_flight.description": "You can fly whenever you aren't in water or rain.",
-  "power.consularsorigins.effect_immunity.name": "Magical",
-  "power.consularsorigins.effect_immunity.description": "Due to being magical, you are uneffected by any potion effect. Even good ones. (You can still be effected by Saturation, Bad Omen, and Hero of the Village)",
+  "power.consularsorigins.no_damage.name": "Pacifist",
+  "power.consularsorigins.no_damage.description": "You do not do damage by traditional means. Instead, attacking makes the target levitate.",
 
   "origin.consularsorigins.enchantling.name": "Enchantling",
   "origin.consularsorigins.enchantling.description": "Enchantlings are mysterious creatures born from wishes of others and magic of the land. (Suggested by reshmi herdin)",
