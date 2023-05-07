@@ -1,0 +1,16 @@
+{
+    "type": "origins:creative_flight",
+    "condition": {
+        "type": "consularsorigins:nearby_entities",
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          }
+        },
+        "radius": 40.0,
+        "comparison": ">=",
+        "compare_to": 1
+      }
+}

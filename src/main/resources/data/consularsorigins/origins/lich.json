@@ -7,7 +7,7 @@
   "consularsorigins:follower",
   "origins:no_shield"
   ],
-  "icon": "note_block",
-  "order": 1,
+  "icon": "twilightforest:lich_trophy",
+  "order": 3,
   "impact": 1
 }
