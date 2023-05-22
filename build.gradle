@@ -12,23 +12,6 @@ group = project.maven_group
 
 repositories {
     maven {
-        name = "Pug's Maven"
-        url = 'https://maven.merchantpug.net/releases/'
-    }
-    maven {
-        url = 'https://maven.cafeteria.dev'
-        content {
-            includeGroup 'net.adriantodt.fabricmc'
-        }
-    }
-    maven {
-        name = "Modrinth"
-        url = "https://api.modrinth.com/maven"
-        content {
-            includeGroup "maven.modrinth"
-        }
-    }
-    maven {
         name "cloth config"
         url "https://maven.shedaniel.me/"
     }
@@ -37,12 +20,12 @@ repositories {
         url "https://maven.terraformersmc.com/"
     }
     maven {
-        name "player ability lib"
-        url "https://ladysnake.jfrog.io/artifactory/mods"
+        name "playerabilitylib"
+        url = 'https://ladysnake.jfrog.io/artifactory/mods'
     }
     maven {
         name "reach entity attributes"
-        url "https://maven.jamieswhiteshirt.com/libs-release/"
+        url "https://maven.jamieswhiteshirt.com/libs-release"
     }
     maven {
         name "jitpack"
