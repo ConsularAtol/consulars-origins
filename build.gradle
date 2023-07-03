@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.0-SNAPSHOT'
+    id 'fabric-loom' version '1.2-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -12,24 +12,29 @@ group = project.maven_group
 
 repositories {
     maven {
-        name "cloth config"
-        url "https://maven.shedaniel.me/"
-    }
-    maven {
-        name "mod menu"
-        url "https://maven.terraformersmc.com/"
-    }
-    maven {
-        name "playerabilitylib"
+        name = "Ladysnake Libs"
         url = 'https://ladysnake.jfrog.io/artifactory/mods'
     }
     maven {
-        name "reach entity attributes"
-        url "https://maven.jamieswhiteshirt.com/libs-release"
+        url = 'https://maven.cafeteria.dev'
+        content {
+            includeGroup 'net.adriantodt.fabricmc'
+        }
     }
     maven {
-        name "jitpack"
+        url "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
+    }
+    maven {
         url "https://jitpack.io"
+    }
+    maven {
+        url "https://maven.shedaniel.me/"
+    }
+    maven {
+        url "https://maven.terraformersmc.com/"
     }
 }
 
