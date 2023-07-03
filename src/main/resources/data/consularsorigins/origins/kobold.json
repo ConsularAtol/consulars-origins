@@ -4,6 +4,9 @@
 	"consularsorigins:half_sized",
   "consularsorigins:strongerpickaxe",
   "consularsorigins:light",
+  "consularsorigins:silk_touch",
+  "consularsorigins:silk_touch_toggle",
+  "consularsorigins:silk_touch_hud",
   "consularsorigins:dynamite"
   ],
   "icon": "golden_pickaxe",

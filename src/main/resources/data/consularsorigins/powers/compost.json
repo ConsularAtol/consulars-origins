@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:modify_resource",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 4
+        },
+        "resource": "consularsorigins:bonemeal_bar"
+    },
+    "item_condition": {
+        "type": "origins:food"
+    }
+}

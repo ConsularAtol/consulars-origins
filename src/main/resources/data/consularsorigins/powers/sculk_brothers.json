@@ -1,0 +1,7 @@
+{
+    "type": "consularsorigins:mob_neutrality",
+      "mob_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:warden"
+    }
+  }

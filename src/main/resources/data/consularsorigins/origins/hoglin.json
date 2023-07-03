@@ -1,0 +1,18 @@
+{
+    "powers": [
+    "origins:nether_spawn",
+    "origins:carnivore",
+    "consularsorigins:small_but_mighty",
+    "origins:no_shield"
+    ],
+	"upgrades": [
+		{
+		  "condition": "consularsorigins:overworld",
+		  "origin": "consularsorigins:zoglin",
+          "announcement": "text.consularsorigins.become_zoglin"
+		}
+	  ],
+    "icon": "porkchop",
+    "order": 1,
+    "impact": 2
+  }

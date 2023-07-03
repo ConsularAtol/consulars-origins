@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "overworld": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "the_nether",
+                "to": "overworld"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "overworld"
+        ]
+    ],
+    "rewards": {
+      "function": "consularsorigins:remove_overworld_advancement"
+    }
+
+}

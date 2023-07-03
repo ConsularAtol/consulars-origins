@@ -1,0 +1,18 @@
+{
+    "powers": [
+    "consularsorigins:fire_immunity",
+    "origins:carnivore",
+    "consularsorigins:small_and_less_mighty",
+    "origins:no_shield"
+    ],
+    "upgrades": [
+      {
+        "condition": "consularsorigins:nether",
+        "origin": "consularsorigins:hoglin",
+        "announcement": "text.consularsorigins.become_hoglin"
+      }
+      ],
+    "icon": "cooked_porkchop",
+    "order": 1,
+    "impact": 2
+  }

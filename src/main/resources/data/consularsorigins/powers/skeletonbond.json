@@ -4,14 +4,14 @@
     "type": "consularsorigins:mob_neutrality",
     "mob_condition": {
       "type": "origins:entity_type",
-      "entity_type": "minecraft:piglin"
+      "entity_type": "minecraft:skeleton"
     }
   },
   "piglin_brute": {
     "type": "consularsorigins:mob_neutrality",
     "mob_condition": {
       "type": "origins:entity_type",
-      "entity_type": "minecraft:piglin_brute"
+      "entity_type": "minecraft:wither_skeleton"
     }
   }
 }

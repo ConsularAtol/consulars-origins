@@ -18,7 +18,7 @@ public class ModConditions {
         register(NearbyEntitiesCondition.createFactory());
     }
 
-	public static final ConditionFactory<Entity> PIGLIN_SAFE = new ConditionFactory<>(new Identifier(ConsularsOrigins.MODID, "piglin_safe"), new SerializableData(), (instance, entity) -> entity.world.getDimension().piglinSafe());
+	public static final ConditionFactory<Entity> PIGLIN_SAFE = new ConditionFactory<>(new Identifier(ConsularsOrigins.MODID, "piglin_safe"), new SerializableData(), (instance, entity) -> entity.getWorld().getDimension().piglinSafe());
 	
 	public static final ConditionFactory<Pair<DamageSource, Float>> CROSSBOW_ARROW = new ConditionFactory<>(new Identifier(ConsularsOrigins.MODID, "crossbow_arrow"), new SerializableData(), (instance, damageSourceFloatPair) -> damageSourceFloatPair.getLeft().getSource() instanceof PersistentProjectileEntity projectile && projectile.isShotFromCrossbow());
 	

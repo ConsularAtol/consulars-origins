@@ -1,0 +1,7 @@
+{
+    "type": "origins:simple",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "consularsorigins:silk_touch_toggle"
+    }
+}

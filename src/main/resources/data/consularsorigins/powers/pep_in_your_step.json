@@ -6,7 +6,7 @@
             "type": "origins:block",
             "block": "minecraft:note_block"
         },
-        "radius": 40,
+        "radius": 1,
         "shape": "cube",
         "comparison": ">=",
         "compare_to": 1

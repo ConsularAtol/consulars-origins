@@ -4,12 +4,22 @@
     "max_stacks": 1,
     "duration_per_stack": 400000,
     "tick_rate": 1,
-    "effect":{
-        "effect": "minecraft:blindness",
-        "duration": 400000,
-        "amplifier": 0,
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": false
-    }
+    "effects":[
+        {
+            "effect": "minecraft:blindness",
+            "duration": 400000,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:night_vision",
+            "duration": 400000,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ]
 }

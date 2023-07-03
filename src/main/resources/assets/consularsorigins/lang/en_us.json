@@ -64,6 +64,8 @@
   "power.consularsorigins.dash.description": "You can dash in the direction you're facing in.",
   "power.consularsorigins.dynamite.name": "Dynamite",
   "power.consularsorigins.dynamite.description": "You can throw tnt at any time.",
+  "power.consularsorigins.silk_touch.name": "Silk Touch",
+  "power.consularsorigins.silk_touch.description": "You've mastered the art of mining, allowing you to harvest blocks without damaging them. (Togglable with Secondary Ability)",
 
   "origin.consularsorigins.dwarf.name": "Dwarf",
   "origin.consularsorigins.dwarf.description": "A species of 1 block tall people who fight better than humans.",
@@ -125,6 +127,8 @@
   "power.consularsorigins.fire_immunity.description": "You are immune to fire and lava.",
   "power.consularsorigins.alreadywither.name": "Already Wither",
   "power.consularsorigins.alreadywither.description": "You are immune to the wither effect.",
+  "power.consularsorigins.skeletonbond.name": "Skelly Bond",
+  "power.consularsorigins.skeletonbond.description": "Skeletons and Wither Skeletons won't attack you.",
 
   "origin.consularsorigins.golem.name": "Golem",
   "origin.consularsorigins.golem.description": "An evolved species of Stoneling. They've evolved to survive exposed to the sun, and have become stronger.",
@@ -137,6 +141,8 @@
   "origin.consularsorigins.warden.description": "The Warden is a blind creature that relies completely on vibrations.",
   "power.consularsorigins.blind.name": "Blind",
   "power.consularsorigins.blind.description": "You are completely blind, this also means you cannot sprint.",
+  "power.consularsorigins.sonic_boom.name": "Sonic Boom",
+  "power.consularsorigins.sonic_boom.description": "You can release a sonically charged shriek at a target within 20 blocks.",
   "power.consularsorigins.sculk_shader.name": "Vibrations",
   "power.consularsorigins.sculk_shader.description": "You can see any entity that is moving without sneaking. And you can make out small details in textures.",
   "power.consularsorigins.big.name": "Big",
@@ -147,6 +153,8 @@
   "power.consularsorigins.silentstep.description": "Your footsteps will not cause vibrations.",
   "power.consularsorigins.darkness_immunity.name": "Darkness Immunity",
   "power.consularsorigins.darkness_immunity.description": "You are immune to the darkness effect.",
+  "power.consularsorigins.sculk_brothers.name": "Sculk Brothers",
+  "power.consularsorigins.sculk_brothers.description": "Wardens will not attack you.",
   
   "origin.consularsorigins.bat.name": "Bat",
   "origin.consularsorigins.bat.description": "Bats are small creatures blessed with the ability of flight, though they can't see colors very well.",
@@ -261,6 +269,8 @@
   "power.consularsorigins.burrower.description": "Being used to small spaces, you are uncomfortable in places with high ceilings. You will be slowed and weakened in areas taller than 3 blocks.",
   "power.consularsorigins.nocturnal.name": "Nocturnal",
   "power.consularsorigins.nocturnal.description": "As a nocturnal creature, you cannot sleep. However, you can still set your spawn in beds.",
+  "power.consularsorigins.insomniac.name": "Insomniac",
+  "power.consularsorigins.insomniac.description": "Phantoms have given up on trying to make you sleep, and so they will not swarm you.",
 
   "origin.consularsorigins.cloudling.name": "Cloudling",
   "origin.consularsorigins.cloudling.description": "Cloudlings are descendants of the skies. In the right conditions, these creatures are very mobile. (Requested by EchoLocation)",
@@ -273,6 +283,32 @@
   "power.consularsorigins.cloud_armor.name": "Soft",
   "power.consularsorigins.cloud_armor.description": "You can't wear any armor stronger than chainmail, as it is too heavy for your soft body.",
   "power.consularsorigins.cloud_invisibility.name": "Clear Skies",
-  "power.consularsorigins.cloud_invisibility.description": "You can become completely invisible, at the cost of some of your hunger."
+  "power.consularsorigins.cloud_invisibility.description": "You can become completely invisible, at the cost of some of your hunger.",
 
+  "origin.consularsorigins.moobloom.name": "Moobloom",
+  "origin.consularsorigins.moobloom.description": "Mooblooms are peaceful creatures that tend to get along with bees. They specialize in farming. (Requested by rjdoesntexist)",
+  "power.consularsorigins.photosynthesis.name": "Photosynthesis",
+  "power.consularsorigins.photosynthesis.description": "When exposed to the sun, all sources of healing are doubled.",
+  "power.consularsorigins.bonemeal.name": "Green Thumb",
+  "power.consularsorigins.bonemeal.description": "You have bonemeal points, these can be spent to bonemeal crops by right clicking them.",
+  "power.consularsorigins.compost.name": "Compost",
+  "power.consularsorigins.compost.description": "When you eat, you gain bonemeal points.",
+  "power.consularsorigins.friendly_bees.name": "Friend of the Bees",
+  "power.consularsorigins.friendly_bees.description": "Bees will never be angry with you, no matter what.",
+  "power.consularsorigins.cousins.name": "Cousins",
+  "power.consularsorigins.cousins.description": "Being closely related to cows, you cannot bear to wear leather armor.",
+
+  "origin.consularsorigins.hoglin.name": "Hoglin",
+  "origin.consularsorigins.hoglin.description": "Hoglins are hostile boars that inhabit the nether. They're rumoured to behave differently in the overworld.",
+  "power.consularsorigins.small_but_mighty.name": "Small But Mighty",
+  "power.consularsorigins.small_but_mighty.description": "You are smaller than the normal player, but you are much healthier. You also have a further attack reach.",
+  "power.consularsorigins.pork_brothers.name": "Pork Brothers",
+  "power.consularsorigins.pork_brothers.description": "Other Hoglins will not attack you.",
+  "text.consularsorigins.become_zoglin": "You have become a Zoglin!",
+
+  "origin.consularsorigins.zoglin.name": "Zoglin",
+  "origin.consularsorigins.zoglin.description": "Zoglins are hostile boars that are a bit out of place. They thrive in the nether, and behave differently there.",
+  "power.consularsorigins.small_and_less_mighty.name": "Small And Less Mighty",
+  "power.consularsorigins.small_and_less_mighty.description": "You are smaller than normal, but healthier. Though not as much as the Hoglin. You're also slower than the hoglin.",
+  "text.consularsorigins.become_hoglin": "You have become a Hoglin"
 }

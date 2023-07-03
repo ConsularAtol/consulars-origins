@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "consularsorigins:photosynthesis",
+    "consularsorigins:bonemeal",
+    "consularsorigins:bonemeal_bar",
+    "origins:vegetarian",
+    "consularsorigins:compost",
+    "consularsorigins:friendly_bees",
+    "consularsorigins:cousins"
+  ],
+  "icon": "dandelion",
+  "order": 1,
+  "impact": 2
+}

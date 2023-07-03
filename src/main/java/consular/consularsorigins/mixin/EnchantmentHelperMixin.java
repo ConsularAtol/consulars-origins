@@ -13,7 +13,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 public class EnchantmentHelperMixin {
 
     @ModifyVariable(method = "generateEnchantments", at = @At(value = "INVOKE_ASSIGN", target = "Lnet/minecraft/item/Item;getEnchantability()I"), ordinal = 0)
-    private static int modifyEnchantabilityForClerics(int original) {
+    private static int modifyEnchantabilityForEnchantlings(int original) {
         if(original > 0 && ConsularsOrigins.isEnchantlingEnchanting) {
             ConsularsOrigins.isEnchantlingEnchanting = false;
             return original + 10;
