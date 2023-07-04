@@ -14,6 +14,11 @@
       "condition": "consularsorigins:used_pickaxe",
       "origin": "consularsorigins:kobold",
       "announcement": "text.consularsorigins.become_kobold"
+    },
+    {
+      "condition": "consularsorigins:used_axe",
+      "origin": "consularsorigins:halfling",
+      "announcement": "text.consularsorigins.become_halfling"
     }
   ],
   "icon": "stick",

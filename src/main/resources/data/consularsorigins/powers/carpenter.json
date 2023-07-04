@@ -1,0 +1,20 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "consularsorigins:carpenter/extra_planks",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "#",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "tag": "minecraft:planks"
+            }
+        },
+        "result": {
+            "item": "minecraft:stick",
+            "count": 6
+        }
+    }
+}

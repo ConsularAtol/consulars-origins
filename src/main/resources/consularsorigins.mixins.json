@@ -4,15 +4,17 @@
   "package": "consular.consularsorigins.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-	"TargetPredicateAccessor",
-	"TrackTargetGoalMixin",
-  "EnchantmentHelperMixin",
-  "EnchantmentScreenHandlerMixin",
-  "PlayerConditionsMixin",
-  "EntityMixin",
-  "AbstractBlockMixin",
-  "MobEntityMixin"  
-],
+	  "TargetPredicateAccessor",
+	  "TrackTargetGoalMixin",
+    "EnchantmentHelperMixin",
+    "EnchantmentScreenHandlerMixin",
+    "PlayerConditionsMixin",
+    "EntityMixin",
+    "AbstractBlockMixin",
+    "MobEntityMixin",
+    "PiglinBrainMixin",
+    "PiglinBruteBrainMixin"
+  ],
   "injectors": {
 	"defaultRequire": 1
   }

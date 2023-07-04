@@ -1,1 +1,1 @@
-advancement revoke @p only consularsorigins:used_sword
+advancement revoke @s only consularsorigins:used_sword

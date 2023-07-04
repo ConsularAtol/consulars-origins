@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "consularsorigins:striding",
+        "consularsorigins:fire_immunity",
+        "consularsorigins:cool_guy",
+        "consularsorigins:mount",
+        "consularsorigins:cozy",
+        "origins:water_vulnerability",
+        "origins:nether_spawn"
+    ],
+    "icon": "warped_fungus_on_a_stick",
+    "order": 1,
+    "impact": 3
+  }
+  

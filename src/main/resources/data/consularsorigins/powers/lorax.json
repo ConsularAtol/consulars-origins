@@ -1,0 +1,23 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:block_action_at",
+        "block_action": {
+            "type": "origins:area_of_effect",
+            "radius": 16,
+            "shape": "cube",
+            "block_action": {
+                "type": "origins:bonemeal"
+            },
+            "block_condition": {
+                "type": "origins:in_tag",
+                "tag": "minecraft:saplings"
+            }
+        }
+    },
+    "cooldown": 10,
+    "hud_render": {
+      "sprite_location": "consularsorigins:gui/ability_bars.png",
+      "bar_index": 14
+    }
+}

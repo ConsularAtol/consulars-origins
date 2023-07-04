@@ -8,6 +8,10 @@
         {
             "sprite": "minecraft:textures/item/golden_pickaxe.png",
             "text": "Use a pickaxe to become profecient with them."
+        },
+        {
+            "sprite": "minecraft:textures/item/golden_axe.png",
+            "text": "Use an axe to become profecient with them."
         }
     ]
 }

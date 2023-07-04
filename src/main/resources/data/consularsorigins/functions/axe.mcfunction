@@ -1,0 +1,1 @@
+advancement revoke @s only consularsorigins:used_axe

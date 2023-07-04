@@ -56,6 +56,7 @@
   "power.consularsorigins.wieldy.name": "Wieldy",
   "power.consularsorigins.wieldy.description": "You can swing swords faster than others.",
   "text.consularsorigins.become_kobold": "You have become a Kobold!",
+  "text.consularsorigins.become_halfling": "You have become a Halfling!",
   "text.consularsorigins.become_dwarf": "You have become a Dwarf!",
 
   "origin.consularsorigins.kobold.name": "Kobold",
@@ -66,6 +67,19 @@
   "power.consularsorigins.dynamite.description": "You can throw tnt at any time.",
   "power.consularsorigins.silk_touch.name": "Silk Touch",
   "power.consularsorigins.silk_touch.description": "You've mastered the art of mining, allowing you to harvest blocks without damaging them. (Togglable with Secondary Ability)",
+
+  "origin.consularsorigins.halfling.name": "Halfling",
+  "origin.consularsorigins.halfling.description": "A species of 1 block tall people who have mastered the art of woodcutting.",
+  "power.consularsorigins.lumberjack.name": "Lumberjack",
+  "power.consularsorigins.lumberjack.description": "You break logs twice as fast as humans.",
+  "power.consularsorigins.carpenter.name": "Carpenter",
+  "power.consularsorigins.carpenter.description": "You excell are breaking down wood, you know how to maximize your stick output.",
+  "power.consularsorigins.lorax.name": "Lorax",
+  "power.consularsorigins.lorax.description": "You speak for the trees. You can bonemeal any sapling within a 16 block radius.",
+  "power.consularsorigins.crafter.name": "Hand Crafter",
+  "power.consularsorigins.crafter.description": "You're too good for a crafting table. You can do it by hand.",
+  "power.consularsorigins.careful_picker.name": "Careful Picker",
+  "power.consularsorigins.careful_picker.description": "When you break leaves, you always get its sapling.",
 
   "origin.consularsorigins.dwarf.name": "Dwarf",
   "origin.consularsorigins.dwarf.description": "A species of 1 block tall people who fight better than humans.",
@@ -310,5 +324,16 @@
   "origin.consularsorigins.zoglin.description": "Zoglins are hostile boars that are a bit out of place. They thrive in the nether, and behave differently there.",
   "power.consularsorigins.small_and_less_mighty.name": "Small And Less Mighty",
   "power.consularsorigins.small_and_less_mighty.description": "You are smaller than normal, but healthier. Though not as much as the Hoglin. You're also slower than the hoglin.",
-  "text.consularsorigins.become_hoglin": "You have become a Hoglin"
+  "text.consularsorigins.become_hoglin": "You have become a Hoglin",
+
+  "origin.consularsorigins.striderling.name": "Striderling",
+  "origin.consularsorigins.striderling.description": "An early decendant of the stider, known for it's ability to carry others over lava. (Suggested by MeetSofa)",
+  "power.consularsorigins.striding.name": "Striding",
+  "power.consularsorigins.striding.description": "You can walk on lava! But be careful, it won't stop fall damage.",
+  "power.consularsorigins.cool_guy.name": "Cool Guy",
+  "power.consularsorigins.cool_guy.description": "You're such a cool little dude. Piglins won't attack you.",
+  "power.consularsorigins.mount.name": "Mount",
+  "power.consularsorigins.mount.description": "Other players can ride you.",
+  "power.consularsorigins.cozy.name": "Cozy",
+  "power.consularsorigins.cozy.description": "You get cold when you're not in the lava, and you will be slowed down."
 }

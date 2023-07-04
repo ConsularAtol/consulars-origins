@@ -1,1 +1,1 @@
-advancement revoke @p only consularsorigins:used_pickaxe
+advancement revoke @s only consularsorigins:used_pickaxe

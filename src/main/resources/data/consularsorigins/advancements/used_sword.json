@@ -5,7 +5,7 @@
         "trigger": "minecraft:item_durability_changed",
         "conditions": {
             "item": {
-                "tag": "fabric:swords"
+                "tag": "minecraft:swords"
             }
         }
       }

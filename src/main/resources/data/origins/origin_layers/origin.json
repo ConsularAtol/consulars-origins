@@ -8,6 +8,7 @@
   "consularsorigins:gnome",
   "consularsorigins:golem",
   "consularsorigins:kobold",
+  "consularsorigins:halfling",
   "consularsorigins:skeleton",
   "consularsorigins:stoneling",
   "consularsorigins:wither_skeleton",
@@ -26,6 +27,7 @@
   "consularsorigins:cloudling",
   "consularsorigins:moobloom",
   "consularsorigins:hoglin",
-  "consularsorigins:zoglin"
+  "consularsorigins:zoglin",
+  "consularsorigins:striderling"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "powers": [
+	"consularsorigins:half_sized",
+  "consularsorigins:light",
+  "consularsorigins:lumberjack",
+  "consularsorigins:carpenter",
+  "consularsorigins:lorax",
+  "consularsorigins:crafter",
+  "consularsorigins:careful_picker"
+  ],
+  "icon": "golden_axe",
+  "order": 1,
+  "impact": 2,
+  "unchoosable": true
+}

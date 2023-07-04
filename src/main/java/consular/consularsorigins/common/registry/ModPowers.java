@@ -6,8 +6,10 @@ import io.github.apace100.apoli.power.PowerTypeReference;
 import io.github.apace100.apoli.power.factory.PowerFactory;
 import io.github.apace100.apoli.registry.ApoliRegistries;
 import io.github.apace100.calio.data.SerializableData;
+import io.github.apace100.calio.data.SerializableDataType;
 import io.github.apace100.calio.data.SerializableDataTypes;
 import consular.consularsorigins.common.ConsularsOrigins;
+import consular.consularsorigins.common.power.LegacyMobNeutralityPower;
 import consular.consularsorigins.common.power.MobNeutralityPower;
 import consular.consularsorigins.common.power.ModifySizePower;
 import net.minecraft.util.Identifier;
@@ -22,12 +24,15 @@ public class ModPowers {
 	
 	public static final PowerType<Power> BETTER_ENCHANTING = new PowerTypeReference<>(new Identifier(ConsularsOrigins.MODID, "better_enchanting"));
 
+	public static final PowerFactory<Power> LEGACY_MOB_NEUTRALITY = new PowerFactory<>(new Identifier(ConsularsOrigins.MODID, "legacy_mob_neutrality"), new SerializableData().add("entity_types", SerializableDataType.list(SerializableDataTypes.ENTITY_TYPE), Collections.emptyList()).add("inverted", SerializableDataTypes.BOOLEAN, false), data -> (type, entity) -> new LegacyMobNeutralityPower(type, entity, data.get("entity_types"), data.getBoolean("inverted"))).allowCondition();
+
 	public static final PowerType<Power> SILK_TOUCH = new PowerTypeReference<>(new Identifier(ConsularsOrigins.MODID, "silk_touch"));
 
-	public static final PowerType<Power> PEP_IN_YOUR_STEP = new PowerTypeReference<>(new Identifier(ConsularsOrigins.MODID, "pep_in_your_step"));
+	public static final PowerType<Power> CAREFUL_PICKER = new PowerTypeReference<>(new Identifier(ConsularsOrigins.MODID, "careful_picker"));
 	
 	public static void init() {
 		Registry.register(ApoliRegistries.POWER_FACTORY, MODIFY_SIZE.getSerializerId(), MODIFY_SIZE);
+		Registry.register(ApoliRegistries.POWER_FACTORY, LEGACY_MOB_NEUTRALITY.getSerializerId(), LEGACY_MOB_NEUTRALITY);
 		register(MobNeutralityPower.getFactory());
 	}
 

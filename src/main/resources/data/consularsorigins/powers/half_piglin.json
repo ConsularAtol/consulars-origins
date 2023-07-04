@@ -1,18 +1,7 @@
 {
-  "type": "origins:multiple",
-  "piglin": {
-    "type": "consularsorigins:mob_neutrality",
-    "mob_condition": {
-      "type": "origins:entity_type",
-      "entity_type": "minecraft:piglin"
-    }
-  },
-  "piglin_brute": {
-    "type": "consularsorigins:mob_neutrality",
-    "mob_condition": {
-      "type": "origins:entity_type",
-      "entity_type": "minecraft:piglin_brute"
-    }
-  }
+  "type": "consularsorigins:legacy_mob_neutrality",
+  "entity_types": [
+	"piglin",
+  "piglin_brute"
+  ]
 }
-  

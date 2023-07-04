@@ -5,12 +5,12 @@
         "trigger": "minecraft:item_durability_changed",
         "conditions": {
             "item": {
-                "tag": "minecraft:pickaxes"
+                "tag": "minecraft:axes"
             }
         }
       }
     },
   "rewards": {
-    "function": "consularsorigins:pickaxe"
+    "function": "consularsorigins:axe"
   }
 }

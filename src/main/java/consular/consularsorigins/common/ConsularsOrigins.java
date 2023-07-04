@@ -13,7 +13,7 @@ public class ConsularsOrigins implements ModInitializer {
 
 	public static boolean isEnchantlingEnchanting;
 	public static boolean isKoboldMining;
-	public static boolean isAllayFlying;
+	public static boolean isHalflingPicking;
 	
 	public static Identifier id(String path) {
         return new Identifier(MODID, path);
