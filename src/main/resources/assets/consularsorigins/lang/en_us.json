@@ -287,7 +287,7 @@
   "power.consularsorigins.insomniac.description": "Phantoms have given up on trying to make you sleep, and so they will not swarm you.",
 
   "origin.consularsorigins.cloudling.name": "Cloudling",
-  "origin.consularsorigins.cloudling.description": "Cloudlings are descendants of the skies. In the right conditions, these creatures are very mobile. (Requested by EchoLocation)",
+  "origin.consularsorigins.cloudling.description": "Cloudlings are descendants of the skies. In the right conditions, these creatures are very mobile. (Suggested by EchoLocation)",
   "power.consularsorigins.translucent.name": "Translucent",
   "power.consularsorigins.translucent.description": "Your skin is see-through, making you harder to see.",
   "power.consularsorigins.day_speed.name": "Sun Blocker",
@@ -300,7 +300,7 @@
   "power.consularsorigins.cloud_invisibility.description": "You can become completely invisible, at the cost of some of your hunger.",
 
   "origin.consularsorigins.moobloom.name": "Moobloom",
-  "origin.consularsorigins.moobloom.description": "Mooblooms are peaceful creatures that tend to get along with bees. They specialize in farming. (Requested by rjdoesntexist)",
+  "origin.consularsorigins.moobloom.description": "Mooblooms are peaceful creatures that tend to get along with bees. They specialize in farming. (Suggested by rjdoesntexist)",
   "power.consularsorigins.photosynthesis.name": "Photosynthesis",
   "power.consularsorigins.photosynthesis.description": "When exposed to the sun, all sources of healing are doubled.",
   "power.consularsorigins.bonemeal.name": "Green Thumb",
