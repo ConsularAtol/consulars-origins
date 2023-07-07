@@ -2,7 +2,7 @@ package consular.consularsorigins.common.item;
 
 import java.util.List;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
