@@ -1,5 +1,6 @@
 package consular.consularsorigins.mixin;
 
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -55,15 +56,12 @@ public abstract class AbstractBlockMixin implements ToggleableFeature{
             else
             if (ConsularsOrigins.isHalflingPicking && state.isIn(BlockTags.LEAVES)){
                 List<ItemStack> droppedStacks = new ArrayList<ItemStack>();
-                Double random = Math.random();
-                //if (random > 0.5) {
-                    Item sapling = getMatchingSapling(state.getBlock());
-                    System.out.println(sapling);
-                    if (sapling != null) {
-                        ItemStack saplingStack = new ItemStack(sapling);
-                        droppedStacks.add(saplingStack);
-                    }
-                //}
+                Item sapling = getMatchingSapling(state.getBlock());
+                System.out.println(sapling);
+                if (sapling != null) {
+                    ItemStack saplingStack = new ItemStack(sapling);
+                    droppedStacks.add(saplingStack);
+                }
                 return droppedStacks;
             }
             else{
@@ -86,10 +84,17 @@ public abstract class AbstractBlockMixin implements ToggleableFeature{
         String saplingBlockName = leafBlockName.replace("leaves", "") + "sapling";
 
         // Create the sapling identifier using the same namespace as the leaf block
-        Identifier saplingIdentifier = new Identifier(saplingBlockName);
-        System.out.println(saplingBlockName);
-        System.out.println(saplingIdentifier);
+        Identifier saplingIdentifier = new Identifier(leafIdentifier.getNamespace(), saplingBlockName);
 
-        return Registries.ITEM.getOrEmpty(saplingIdentifier).orElse(null);
+        // Check if the mod providing the sapling is present
+        if (FabricLoader.getInstance().isModLoaded(saplingIdentifier.getNamespace())) {
+            Item saplingItem = Registries.ITEM.getOrEmpty(saplingIdentifier).orElse(null);
+            if (saplingItem != null) {
+                return saplingItem;
+            }
+        }
+
+        // Fallback to the default sapling item
+        return Items.OAK_SAPLING;
     }
 }
