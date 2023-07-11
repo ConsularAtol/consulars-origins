@@ -48,6 +48,8 @@ dependencies {
     modImplementation files("libs/cca-entity.jar")
     modImplementation files("libs/apoli.jar")
     modImplementation files("libs/origins.jar")
+    modImplementation files("libs/pal.jar")
+    modImplementation files("libs/cloth.jar")
     modImplementation "com.github.virtuoel:pehkui:${pehkui_version}"
 }
 
