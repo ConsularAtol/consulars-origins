@@ -11,29 +11,24 @@ base {
 }
 repositories {
     maven {
-        name = "Ladysnake Libs"
-        url = 'https://ladysnake.jfrog.io/artifactory/mods'
+        name "cloth config"
+        url "https://maven.shedaniel.me"
     }
     maven {
-        url = 'https://maven.cafeteria.dev'
-        content {
-            includeGroup 'net.adriantodt.fabricmc'
-        }
+        name "mod menu"
+        url "https://maven.terraformersmc.com"
     }
     maven {
+        name "playerabilitylib"
+        url "https://maven.ladysnake.org/releases"
+    }
+    maven {
+        name "reach entity attributes"
         url "https://maven.jamieswhiteshirt.com/libs-release"
-        content {
-            includeGroup "com.jamieswhiteshirt"
-        }
     }
     maven {
+        name "jitpack"
         url "https://jitpack.io"
-    }
-    maven {
-        url "https://maven.shedaniel.me/"
-    }
-    maven {
-        url "https://maven.terraformersmc.com/"
     }
 }
 
@@ -43,13 +38,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${loader_version}"
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
-    modImplementation files("libs/calio.jar")
-    modImplementation files("libs/cca-base.jar")
-    modImplementation files("libs/cca-entity.jar")
-    modImplementation files("libs/apoli.jar")
-    modImplementation files("libs/origins.jar")
-    modImplementation files("libs/pal.jar")
-    modImplementation files("libs/cloth.jar")
+    modImplementation "com.github.apace100:origins-fabric:${origins_version}"
     modImplementation "com.github.virtuoel:pehkui:${pehkui_version}"
 }
 

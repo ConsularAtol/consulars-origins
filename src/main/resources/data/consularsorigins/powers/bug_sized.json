@@ -1,0 +1,34 @@
+{
+  "type": "origins:multiple",
+  "modify_height": {
+	"type": "consularsorigins:modify_size",
+	"scale_types": "pehkui:height",
+	"scale": 0.10
+  },
+  "modify_width": {
+	"type": "consularsorigins:modify_size",
+	"scale_types": "pehkui:width",
+	"scale": 0.10
+  },
+  "modify_flight": {
+	"type": "consularsorigins:modify_size",
+	"scale_types": "pehkui:flight",
+	"scale": 10
+  },
+  "modify_motion": {
+	"type": "consularsorigins:modify_size",
+	"scale_types": "pehkui:motion",
+	"scale": 0.10
+  },
+  "attribute_modifiers": {
+	"type": "origins:attribute",
+	"modifiers": [
+	  {
+		"name": "Origin modifier",
+		"attribute": "generic.max_health",
+		"operation": "addition",
+		"value": -16
+	  }
+	]
+  }
+}

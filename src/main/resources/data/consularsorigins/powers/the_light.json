@@ -1,0 +1,26 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 100,
+    "duration_per_stack": 20,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:regeneration",
+        "is_ambient": true,
+        "show_particles": true,
+        "show_icon": true
+    },
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:light_level",
+            "light_type": "block",
+            "comparison": ">=",
+            "compare_to": 5
+        },
+        "radius": 0,
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 1
+    }
+}

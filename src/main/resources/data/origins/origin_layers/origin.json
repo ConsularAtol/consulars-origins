@@ -1,11 +1,11 @@
 {
   "replace": false,
   "origins": [
-  "consularsorigins:axolotl",
+	"consularsorigins:axolotl",
   "consularsorigins:babyzombie",
   "consularsorigins:brute",
+  "consularsorigins:gnome",
   "consularsorigins:golem",
-  "consularsorigins:halfling",
   "consularsorigins:skeleton",
   "consularsorigins:stoneling",
   "consularsorigins:wither_skeleton",
@@ -25,6 +25,7 @@
   "consularsorigins:moobloom",
   "consularsorigins:hoglin",
   "consularsorigins:zoglin",
-  "consularsorigins:striderling"
+  "consularsorigins:striderling",
+  "consularsorigins:moth"
   ]
 }

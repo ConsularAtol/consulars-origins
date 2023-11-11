@@ -11,6 +11,5 @@
   ],
   "icon": "golden_pickaxe",
   "order": 1,
-  "impact": 2,
-  "unchoosable": true
+  "impact": 2
 }

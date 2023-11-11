@@ -4,23 +4,6 @@
 	"consularsorigins:half_sized",
   "consularsorigins:light"
   ],
-  "upgrades": [
-    {
-      "condition": "consularsorigins:used_sword",
-      "origin": "consularsorigins:dwarf",
-      "announcement": "text.consularsorigins.become_dwarf"
-    },
-    {
-      "condition": "consularsorigins:used_pickaxe",
-      "origin": "consularsorigins:kobold",
-      "announcement": "text.consularsorigins.become_kobold"
-    },
-    {
-      "condition": "consularsorigins:used_axe",
-      "origin": "consularsorigins:halfling",
-      "announcement": "text.consularsorigins.become_halfling"
-    }
-  ],
   "icon": "stick",
   "order": 1,
   "impact": 2

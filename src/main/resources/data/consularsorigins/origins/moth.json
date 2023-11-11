@@ -1,0 +1,12 @@
+{
+  "powers": [
+  "consularsorigins:the_light",
+  "consularsorigins:light",
+  "consularsorigins:bug_sized",
+  "consularsorigins:fairy_flight",
+  "consularsorigins:attack_the_light"
+  ],
+  "icon": "lantern",
+  "order": 1,
+  "impact": 3
+}

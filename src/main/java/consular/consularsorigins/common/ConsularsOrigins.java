@@ -26,6 +26,6 @@ public class ConsularsOrigins implements ModInitializer {
 		ModPowers.init();
 		ModConditions.init();
 		ModConditions.register();
-		//ModItemGroups.registerItemGroups();
+		ModItemGroups.registerItemGroups();
 	};
 }
