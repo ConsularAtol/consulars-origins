@@ -1,1 +1,17 @@
-
+{
+    "order": 10,
+    "origins": [
+    {
+        "condition": {
+            "type": "origins:origin",
+            "origin": "consularsorigins:gnome",
+            "layer": "origins:origin"
+        },
+        "origins": [
+            "consularsorigins:dwarf",
+            "consularsorigins:kobold",
+            "consularsorigins:halfling"
+        ]
+    }
+    ]
+}
