@@ -24,6 +24,7 @@
   "itemGroup.consularsorigins.origins": "Origin Dependancies",
   "tooltip.consularsorigins.sun_protection": "Shields you from burning in daylight",
   "tooltip.consularsorigins.rain_protection": "Shields you from being hurt by rain",
+  "layer.consularsorigins.gnome_subclass.name": "Subclass",
 
   "origin.consularsorigins.stoneling.name": "Stoneling",
   "origin.consularsorigins.stoneling.description": "A species of rock people that thrive in caves. It's rumoured that they can evolve using some kind of totem.",
@@ -49,8 +50,8 @@
   "power.consularsorigins.half_sized.description": "You are half the size of a human. With half the health, half the reach, but with a higher jump and more speed.",
   "power.consularsorigins.strongerpickaxe.name": "Last Resort",
   "power.consularsorigins.strongerpickaxe.description": "You have a +1 damage boost with pickaxes",
-  "power.consularsorigins.adaptive.name": "Adaptive",
-  "power.consularsorigins.adaptive.description": "You become proficient with the first tool/weapon you use.",
+  "power.consularsorigins.adaptive.name": "Selective Talent",
+  "power.consularsorigins.adaptive.description": "You get to pick a tool to be proficient with on the next screen after selecting this origin",
   "power.consularsorigins.light.name": "Light",
   "power.consularsorigins.light.description": "You are immune to fall damage.",
   "power.consularsorigins.wieldy.name": "Wieldy",
@@ -208,7 +209,7 @@
 
   "origin.consularsorigins.fairy.name": "Fairy",
   "origin.consularsorigins.fairy.description": "Fairies are small, winged, magical, creatures.",
-  "power.consularsorigins.fairy_flight.name": "Fairy Flight",
+  "power.consularsorigins.fairy_flight.name": "Flight",
   "power.consularsorigins.fairy_flight.description": "You can fly whenever you aren't in water or rain.",
   "power.consularsorigins.no_damage.name": "Pacifist",
   "power.consularsorigins.no_damage.description": "You do not do damage by traditional means. Instead, attacking makes the target levitate.",
@@ -335,5 +336,14 @@
   "power.consularsorigins.mount.name": "Mount",
   "power.consularsorigins.mount.description": "Other players can ride you.",
   "power.consularsorigins.cozy.name": "Cozy",
-  "power.consularsorigins.cozy.description": "You get cold when you're not in the lava, and you will be slowed down."
+  "power.consularsorigins.cozy.description": "You get cold when you're not in the lava, and you will be slowed down.",
+
+  "origin.consularsorigins.moth.name": "Moth",
+  "origin.consularsorigins.moth.description": "A flying bug known for it's attraction to light (Suggested by Bumbling_Bee)",
+  "power.consularsorigins.the_light.name": "THE LIGHT",
+  "power.consularsorigins.the_light.description": "Because of your love for light sources; if a nearby block is giving you a light level of at least 5, you gain regeneration. The effect stacks the longer you bask in the light.",
+  "power.consularsorigins.bug_sized.name": "Bug Sized",
+  "power.consularsorigins.bug_sized.description": "You are a tenth of the size of players. (May cause visual bugs)",
+  "power.consularsorigins.attack_the_light.name": "Attack The Light",
+  "power.consularsorigins.attack_the_light.description": "You hate false weilders of light, you deal extra damage to entites with glowing."
 }
