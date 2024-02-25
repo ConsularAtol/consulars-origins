@@ -1,18 +1,23 @@
 plugins {
-    id 'fabric-loom' version '1.2-SNAPSHOT'
-    id 'maven-publish'
+	id 'fabric-loom' version '1.5-SNAPSHOT'
+	id 'maven-publish'
 }
 
 version = project.mod_version
 group = project.maven_group
 
 base {
-    archivesName = project.archives_base_name
+	archivesName = project.archives_base_name
 }
+
 repositories {
     maven {
         name "cloth config"
         url "https://maven.shedaniel.me"
+    }
+    maven {
+        name "quiltmc"
+        url "https://maven.quiltmc.org/repository/release"
     }
     maven {
         name "mod menu"
@@ -23,13 +28,32 @@ repositories {
         url "https://maven.ladysnake.org/releases"
     }
     maven {
+        name "masady"
+        url "https://masa.dy.fi/maven"
+    }
+    maven {
         name "reach entity attributes"
         url "https://maven.jamieswhiteshirt.com/libs-release"
+    }
+    maven {
+        name "modrinth"
+        url "https://api.modrinth.com/maven"
     }
     maven {
         name "jitpack"
         url "https://jitpack.io"
     }
+}
+loom {
+    splitEnvironmentSourceSets()
+
+	mods {
+		"modid" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+
 }
 
 dependencies {
@@ -43,26 +67,43 @@ dependencies {
 }
 
 processResources {
-    inputs.property "version", project.version
+	inputs.property "version", project.version
 
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
-    }
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
 }
 
 tasks.withType(JavaCompile).configureEach {
-    it.options.release = 17
+	it.options.release = 17
 }
 
 java {
-    withSourcesJar()
+	withSourcesJar()
 
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {
-    from("LICENSE") {
-        rename { "${it}_${project.archivesBaseName}" }
-    }
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}"}
+	}
+}
+
+// configure the maven publication
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
+
+	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
+	repositories {
+		// Add repositories to publish to here.
+		// Notice: This block does NOT have the same function as the block in the top level.
+		// The repositories here will be used for publishing your artifact, not for
+		// retrieving dependencies.
+	}
 }
